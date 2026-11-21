@@ -1,0 +1,43 @@
+name: Verify scoring, dashboard API and visual logic
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m unittest discover -s tests -v
+      - run: python -m compileall -q resilience run.py
+      - run: python scripts/verify_offline.py
+  visuals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check web/app.js
+      - run: node --check web/map3d.js
+      - run: node --check web/visuals.js
+      - run: node --check web/asset3d.js
+      - run: node --check web/asset-renderer.js
+      - run: node --check web/home.js
+      - run: node --check web/report.js
+      - run: node --test tests/test_visuals.js tests/test_asset3d.js tests/test_report_actions.js
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.62.0
+      - run: python -m playwright install --with-deps chromium
+      - run: python -m tests.browser_smoke

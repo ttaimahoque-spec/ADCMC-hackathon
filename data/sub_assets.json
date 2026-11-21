@@ -1,0 +1,122 @@
+[
+  {
+    "sub_asset_id": "SA-INTAKE",
+    "asset_id": "AST-0001",
+    "name_ar": "مأخذ مياه البحر",
+    "name_en": "Seawater intake",
+    "function": "intake",
+    "units": 1,
+    "capacity_per_unit_pct": 100,
+    "units_needed": 1,
+    "repair_median_days": 60,
+    "repair_beta": 0.4,
+    "upstream": []
+  },
+  {
+    "sub_asset_id": "SA-INTAKE-PUMPS",
+    "asset_id": "AST-0001",
+    "name_ar": "مضخات السحب",
+    "name_en": "Intake pumps",
+    "function": "intake_pumping",
+    "units": 4,
+    "capacity_per_unit_pct": 33,
+    "units_needed": 3,
+    "repair_median_days": 10,
+    "repair_beta": 0.5,
+    "upstream": [
+      "SA-INTAKE",
+      "SA-POWER-A",
+      "SA-POWER-B"
+    ]
+  },
+  {
+    "sub_asset_id": "SA-PRETREAT",
+    "asset_id": "AST-0001",
+    "name_ar": "المعالجة الأولية",
+    "name_en": "Pre-treatment",
+    "function": "pre_treatment",
+    "units": 2,
+    "capacity_per_unit_pct": 50,
+    "units_needed": 2,
+    "repair_median_days": 7,
+    "repair_beta": 0.5,
+    "upstream": [
+      "SA-INTAKE-PUMPS"
+    ]
+  },
+  {
+    "sub_asset_id": "SA-RO",
+    "asset_id": "AST-0001",
+    "name_ar": "وحدات التناضح العكسي",
+    "name_en": "Reverse-osmosis trains",
+    "function": "reverse_osmosis",
+    "units": 5,
+    "capacity_per_unit_pct": 25,
+    "units_needed": 4,
+    "repair_median_days": 7,
+    "repair_beta": 0.5,
+    "upstream": [
+      "SA-PRETREAT",
+      "SA-POWER-A",
+      "SA-POWER-B"
+    ]
+  },
+  {
+    "sub_asset_id": "SA-POSTTREAT",
+    "asset_id": "AST-0001",
+    "name_ar": "المعالجة اللاحقة",
+    "name_en": "Post-treatment",
+    "function": "post_treatment",
+    "units": 2,
+    "capacity_per_unit_pct": 50,
+    "units_needed": 2,
+    "repair_median_days": 5,
+    "repair_beta": 0.5,
+    "upstream": [
+      "SA-RO"
+    ]
+  },
+  {
+    "sub_asset_id": "SA-POWER-A",
+    "asset_id": "AST-0001",
+    "name_ar": "التغذية الكهربائية من محطة التحويل (أ)",
+    "name_en": "Power supply from Substation A",
+    "function": "power",
+    "units": 1,
+    "capacity_per_unit_pct": 100,
+    "units_needed": 1,
+    "repair_median_days": 90,
+    "repair_beta": 0.5,
+    "upstream": []
+  },
+  {
+    "sub_asset_id": "SA-POWER-B",
+    "asset_id": "AST-0001",
+    "name_ar": "التغذية الكهربائية من محطة التحويل (ب)",
+    "name_en": "Power supply from Substation B",
+    "function": "power",
+    "units": 1,
+    "capacity_per_unit_pct": 100,
+    "units_needed": 1,
+    "repair_median_days": 90,
+    "repair_beta": 0.5,
+    "upstream": []
+  },
+  {
+    "sub_asset_id": "SA-TRANSFER",
+    "asset_id": "AST-0001",
+    "name_ar": "مضخات النقل",
+    "name_en": "Transfer pumps",
+    "function": "transfer_pumping",
+    "units": 3,
+    "capacity_per_unit_pct": 50,
+    "units_needed": 2,
+    "repair_median_days": 10,
+    "repair_beta": 0.5,
+    "upstream": [
+      "SA-POSTTREAT",
+      "SA-POWER-A",
+      "SA-POWER-B"
+    ]
+  }
+]

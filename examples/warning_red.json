@@ -1,0 +1,18 @@
+[
+  {
+    "risk_id": "RSK-BLOOM-001",
+    "title": "Harmful algal bloom drifting toward the desalination intake",
+    "channels": [
+      2
+    ],
+    "likelihood": 0.33,
+    "likelihood_low": 0.25,
+    "likelihood_high": 0.45,
+    "horizon": "H1",
+    "velocity": "fast",
+    "warning_level": "red",
+    "coverage": "live",
+    "updated_at": "2026-08-27T06:30:00+04:00",
+    "status": "open"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/measure.schema.json",
+  "title": "measure",
+  "description": "A costed measure. facility_changes are the facility fields it would change (Challenge 01 levers); parameter_changes are the model parameters it changes (Challenge 03).",
+  "type": "object",
+  "properties": {
+    "measure_id": {
+      "type": "string"
+    },
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-\\d{4}$"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "capex_aed": {
+      "type": "number",
+      "minimum": 0
+    },
+    "opex_aed_per_year": {
+      "type": "number",
+      "minimum": 0
+    },
+    "life_years": {
+      "type": "number",
+      "minimum": 1
+    },
+    "parameter_changes": {
+      "type": "object"
+    },
+    "facility_changes": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "measure_id",
+    "name_en",
+    "name_ar",
+    "capex_aed",
+    "opex_aed_per_year",
+    "life_years",
+    "facility_changes"
+  ],
+  "additionalProperties": true
+}

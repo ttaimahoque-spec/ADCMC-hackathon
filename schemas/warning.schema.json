@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/warning.schema.json",
+  "title": "warning",
+  "description": "One version of a risk. The latest version of each risk_id is its current state. status is a starter-pack addition: closed means the risk no longer applies.",
+  "type": "object",
+  "properties": {
+    "risk_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 12
+      }
+    },
+    "likelihood": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "likelihood_low": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "likelihood_high": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "horizon": {
+      "enum": [
+        "H1",
+        "H2",
+        "H3"
+      ]
+    },
+    "velocity": {
+      "enum": [
+        "fast",
+        "moderate",
+        "slow"
+      ]
+    },
+    "warning_level": {
+      "enum": [
+        "red",
+        "amber",
+        "green",
+        "unverified"
+      ]
+    },
+    "coverage": {
+      "enum": [
+        "live",
+        "mute",
+        "blind"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "closed"
+      ]
+    }
+  },
+  "required": [
+    "risk_id",
+    "title",
+    "channels",
+    "likelihood",
+    "likelihood_low",
+    "likelihood_high",
+    "horizon",
+    "velocity",
+    "warning_level",
+    "coverage",
+    "updated_at"
+  ],
+  "additionalProperties": true
+}

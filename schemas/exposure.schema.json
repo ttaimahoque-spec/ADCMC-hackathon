@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/exposure.schema.json",
+  "title": "exposure",
+  "description": "Whether a facility can be hit through a channel. Signed by a named person, never filled by a model.",
+  "type": "object",
+  "properties": {
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-\\d{4}$"
+    },
+    "channel_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "exposed": {
+      "type": "boolean"
+    },
+    "evidence": {
+      "type": "string"
+    },
+    "signed_by": {
+      "type": "string"
+    },
+    "signed_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+    }
+  },
+  "required": [
+    "asset_id",
+    "channel_id",
+    "exposed",
+    "evidence",
+    "signed_by",
+    "signed_at"
+  ],
+  "additionalProperties": true
+}

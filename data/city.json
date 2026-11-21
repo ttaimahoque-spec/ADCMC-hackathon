@@ -1,0 +1,12 @@
+{
+  "city_en": "Madinat Al Sahil",
+  "city_ar": "مدينة الساحل",
+  "population": 1000000,
+  "timezone": "+04:00",
+  "warning_log": {
+    "day_1": "2026-06-02",
+    "day_87": "2026-08-27",
+    "day_90": "2026-08-30"
+  },
+  "note": "Fictional. Use population for the share of the city a facility serves (pillar C)."
+}

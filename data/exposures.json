@@ -1,0 +1,5762 @@
+[
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Desalination Plant can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Al Sahil Desalination Plant can be affected through coastal and marine.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Desalination Plant.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Desalination Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Al Sahil Desalination Plant.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil Desalination Plant.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Desalination Plant.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Desalination Plant.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Desalination Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Desalination Plant.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Desalination Plant.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0001",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Desalination Plant.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Substation A can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Substation A.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Substation A.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Substation A.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Substation A.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Substation A.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Substation A.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Substation A.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Substation A can be affected through technical failure of infrastructure.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Substation A.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Substation A.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0002",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Substation A.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Substation B can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Substation B.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Substation B.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Substation B.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Substation B.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Substation B.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Substation B.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Substation B.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Substation B can be affected through technical failure of infrastructure.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Substation B.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Substation B.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0003",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Substation B.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Main Reservoir can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Main Reservoir.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Main Reservoir.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Main Reservoir.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Al Sahil Main Reservoir.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Al Sahil Main Reservoir can be affected through supply chain.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Main Reservoir.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Main Reservoir.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Al Sahil Main Reservoir can be affected through technical failure of infrastructure.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Main Reservoir.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Main Reservoir.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0004",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Main Reservoir.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Central Pump Station can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Central Pump Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Central Pump Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Central Pump Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Central Pump Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Central Pump Station can be affected through supply chain.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Central Pump Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Central Pump Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Central Pump Station can be affected through technical failure of infrastructure.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Central Pump Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Central Pump Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0005",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Central Pump Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil General Hospital can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil General Hospital.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil General Hospital.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil General Hospital.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil General Hospital can be affected through cyber and information systems.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Al Sahil General Hospital can be affected through supply chain.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Al Sahil General Hospital can be affected through public health.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil General Hospital.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil General Hospital.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil General Hospital.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil General Hospital.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0006",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil General Hospital.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil East Hospital can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil East Hospital.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil East Hospital.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil East Hospital.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil East Hospital can be affected through cyber and information systems.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Al Sahil East Hospital can be affected through supply chain.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Al Sahil East Hospital can be affected through public health.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil East Hospital.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil East Hospital.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil East Hospital.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil East Hospital.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0007",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil East Hospital.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Port can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Al Sahil Port can be affected through coastal and marine.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Al Sahil Port can be affected through flood and drainage.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 4,
+    "exposed": true,
+    "evidence": "Al Sahil Port can be affected through geological.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Al Sahil Port.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil Port.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Port.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Port.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Port.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Al Sahil Port can be affected through transport disruption.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Port.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0008",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Port.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil International Airport can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil International Airport.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Al Sahil International Airport can be affected through flood and drainage.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil International Airport.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Al Sahil International Airport.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil International Airport.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil International Airport.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil International Airport.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil International Airport.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Al Sahil International Airport can be affected through transport disruption.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 11,
+    "exposed": true,
+    "evidence": "Al Sahil International Airport can be affected through space weather.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0009",
+    "channel_id": 12,
+    "exposed": true,
+    "evidence": "Al Sahil International Airport can be affected through mass gatherings and crowding.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Coastal Fuel Terminal can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Coastal Fuel Terminal can be affected through coastal and marine.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Coastal Fuel Terminal can be affected through flood and drainage.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Coastal Fuel Terminal.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Coastal Fuel Terminal.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Coastal Fuel Terminal can be affected through supply chain.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Coastal Fuel Terminal.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Coastal Fuel Terminal can be affected through fire and hazardous materials.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Coastal Fuel Terminal can be affected through technical failure of infrastructure.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Coastal Fuel Terminal.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Coastal Fuel Terminal.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0010",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Coastal Fuel Terminal.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Power Station can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Al Sahil Power Station can be affected through coastal and marine.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Power Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Power Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil Power Station can be affected through cyber and information systems.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Al Sahil Power Station can be affected through supply chain.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Power Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Power Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Al Sahil Power Station can be affected through technical failure of infrastructure.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Power Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Power Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0011",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Power Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "North Wastewater Treatment Plant can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to North Wastewater Treatment Plant.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to North Wastewater Treatment Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to North Wastewater Treatment Plant.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to North Wastewater Treatment Plant.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "North Wastewater Treatment Plant can be affected through supply chain.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to North Wastewater Treatment Plant.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to North Wastewater Treatment Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "North Wastewater Treatment Plant can be affected through technical failure of infrastructure.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to North Wastewater Treatment Plant.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to North Wastewater Treatment Plant.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0012",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to North Wastewater Treatment Plant.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "South Wastewater Treatment Plant can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to South Wastewater Treatment Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "South Wastewater Treatment Plant can be affected through flood and drainage.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to South Wastewater Treatment Plant.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to South Wastewater Treatment Plant.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "South Wastewater Treatment Plant can be affected through supply chain.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to South Wastewater Treatment Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to South Wastewater Treatment Plant.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "South Wastewater Treatment Plant can be affected through technical failure of infrastructure.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to South Wastewater Treatment Plant.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to South Wastewater Treatment Plant.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0013",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to South Wastewater Treatment Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Substation C (Industrial Zone) can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Substation C (Industrial Zone).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Substation C (Industrial Zone) can be affected through flood and drainage.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Substation C (Industrial Zone).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Substation C (Industrial Zone).",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Substation C (Industrial Zone).",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Substation C (Industrial Zone).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Substation C (Industrial Zone).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Substation C (Industrial Zone) can be affected through technical failure of infrastructure.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Substation C (Industrial Zone).",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Substation C (Industrial Zone).",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0014",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Substation C (Industrial Zone).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Substation D (City Centre) can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Substation D (City Centre).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Substation D (City Centre).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Substation D (City Centre).",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Substation D (City Centre) can be affected through cyber and information systems.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Substation D (City Centre).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Substation D (City Centre).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Substation D (City Centre).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Substation D (City Centre) can be affected through technical failure of infrastructure.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Substation D (City Centre).",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Substation D (City Centre).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0015",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Substation D (City Centre).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "West Water Tower can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to West Water Tower.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to West Water Tower.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to West Water Tower.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to West Water Tower.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "West Water Tower can be affected through supply chain.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to West Water Tower.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to West Water Tower.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "West Water Tower can be affected through technical failure of infrastructure.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to West Water Tower.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to West Water Tower.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0016",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to West Water Tower.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Gas Receiving Station can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Gas Receiving Station can be affected through coastal and marine.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Gas Receiving Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Gas Receiving Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Gas Receiving Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Gas Receiving Station can be affected through supply chain.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Gas Receiving Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Gas Receiving Station can be affected through fire and hazardous materials.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Gas Receiving Station can be affected through technical failure of infrastructure.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Gas Receiving Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Gas Receiving Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0017",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Gas Receiving Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Data Centre can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Data Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Data Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Data Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil Data Centre can be affected through cyber and information systems.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil Data Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Data Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Data Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Al Sahil Data Centre can be affected through technical failure of infrastructure.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Data Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Data Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0018",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Data Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Main Telecom Exchange can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Main Telecom Exchange.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Main Telecom Exchange.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Main Telecom Exchange.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Main Telecom Exchange can be affected through cyber and information systems.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Main Telecom Exchange.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Main Telecom Exchange.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Main Telecom Exchange.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Main Telecom Exchange can be affected through technical failure of infrastructure.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Main Telecom Exchange.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 11,
+    "exposed": true,
+    "evidence": "Main Telecom Exchange can be affected through space weather.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0019",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Main Telecom Exchange.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Coastal Radio Mast can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Coastal Radio Mast can be affected through coastal and marine.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Coastal Radio Mast.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Coastal Radio Mast.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Coastal Radio Mast can be affected through cyber and information systems.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Coastal Radio Mast.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Coastal Radio Mast.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Coastal Radio Mast.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Coastal Radio Mast can be affected through technical failure of infrastructure.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Coastal Radio Mast.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 11,
+    "exposed": true,
+    "evidence": "Coastal Radio Mast can be affected through space weather.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0020",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Coastal Radio Mast.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Emergency Communications Hub can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Emergency Communications Hub.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Emergency Communications Hub.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Emergency Communications Hub.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Emergency Communications Hub can be affected through cyber and information systems.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Emergency Communications Hub.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Emergency Communications Hub.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Emergency Communications Hub.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Emergency Communications Hub can be affected through technical failure of infrastructure.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Emergency Communications Hub.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 11,
+    "exposed": true,
+    "evidence": "Emergency Communications Hub can be affected through space weather.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0021",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Emergency Communications Hub.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Bridge can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Bridge.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Al Sahil Bridge can be affected through flood and drainage.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 4,
+    "exposed": true,
+    "evidence": "Al Sahil Bridge can be affected through geological.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Al Sahil Bridge.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil Bridge.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Bridge.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Bridge.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Bridge.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Al Sahil Bridge can be affected through transport disruption.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Bridge.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0022",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Bridge.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Coastal Highway Interchange can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Coastal Highway Interchange.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Coastal Highway Interchange can be affected through flood and drainage.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 4,
+    "exposed": true,
+    "evidence": "Coastal Highway Interchange can be affected through geological.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Coastal Highway Interchange.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Coastal Highway Interchange.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Coastal Highway Interchange.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Coastal Highway Interchange.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Coastal Highway Interchange.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Coastal Highway Interchange can be affected through transport disruption.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Coastal Highway Interchange.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0023",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Coastal Highway Interchange.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Central Bus Depot can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Central Bus Depot.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Central Bus Depot can be affected through flood and drainage.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Central Bus Depot.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Central Bus Depot.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Central Bus Depot.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Central Bus Depot.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Central Bus Depot.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Central Bus Depot.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Central Bus Depot can be affected through transport disruption.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Central Bus Depot.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0024",
+    "channel_id": 12,
+    "exposed": true,
+    "evidence": "Central Bus Depot can be affected through mass gatherings and crowding.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Light Rail Depot can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Light Rail Depot.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Light Rail Depot can be affected through flood and drainage.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Light Rail Depot.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Light Rail Depot.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Light Rail Depot.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Light Rail Depot.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Light Rail Depot.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Light Rail Depot.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Light Rail Depot can be affected through transport disruption.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Light Rail Depot.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0025",
+    "channel_id": 12,
+    "exposed": true,
+    "evidence": "Light Rail Depot can be affected through mass gatherings and crowding.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Medical Stores can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Medical Stores.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Medical Stores.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Medical Stores.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil Medical Stores can be affected through cyber and information systems.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Al Sahil Medical Stores can be affected through supply chain.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Al Sahil Medical Stores can be affected through public health.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Medical Stores.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Medical Stores.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Al Sahil Medical Stores can be affected through transport disruption.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Medical Stores.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0026",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Medical Stores.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Blood Bank can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Blood Bank.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Blood Bank.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Blood Bank.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil Blood Bank can be affected through cyber and information systems.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Al Sahil Blood Bank can be affected through supply chain.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Al Sahil Blood Bank can be affected through public health.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Blood Bank.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Blood Bank.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Blood Bank.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Blood Bank.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0027",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Blood Bank.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "North Primary Health Centre can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to North Primary Health Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to North Primary Health Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to North Primary Health Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "North Primary Health Centre can be affected through cyber and information systems.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "North Primary Health Centre can be affected through supply chain.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "North Primary Health Centre can be affected through public health.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to North Primary Health Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to North Primary Health Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to North Primary Health Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to North Primary Health Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0028",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to North Primary Health Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "South Primary Health Centre can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to South Primary Health Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "South Primary Health Centre can be affected through flood and drainage.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to South Primary Health Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "South Primary Health Centre can be affected through cyber and information systems.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "South Primary Health Centre can be affected through supply chain.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "South Primary Health Centre can be affected through public health.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to South Primary Health Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to South Primary Health Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to South Primary Health Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to South Primary Health Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0029",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to South Primary Health Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Ambulance Central Station can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Ambulance Central Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Ambulance Central Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Ambulance Central Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Ambulance Central Station can be affected through cyber and information systems.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Ambulance Central Station can be affected through supply chain.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Ambulance Central Station can be affected through public health.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Ambulance Central Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Ambulance Central Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Ambulance Central Station can be affected through transport disruption.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Ambulance Central Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0030",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Ambulance Central Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Landfill can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Landfill.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Landfill.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Landfill.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Al Sahil Landfill.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil Landfill.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Landfill.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Al Sahil Landfill can be affected through fire and hazardous materials.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Landfill.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Landfill.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Landfill.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0031",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Landfill.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Waste Transfer Station can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Waste Transfer Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Waste Transfer Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Waste Transfer Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Waste Transfer Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Waste Transfer Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Waste Transfer Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Waste Transfer Station can be affected through fire and hazardous materials.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Waste Transfer Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Waste Transfer Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Waste Transfer Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0032",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Waste Transfer Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Medical Waste Incinerator can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Medical Waste Incinerator.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Medical Waste Incinerator.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Medical Waste Incinerator.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Medical Waste Incinerator.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Medical Waste Incinerator.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Medical Waste Incinerator.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Medical Waste Incinerator can be affected through fire and hazardous materials.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Medical Waste Incinerator.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Medical Waste Incinerator.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Medical Waste Incinerator.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0033",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Medical Waste Incinerator.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Recycling Facility can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Recycling Facility.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Recycling Facility.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Recycling Facility.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Recycling Facility.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Recycling Facility.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Recycling Facility.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Recycling Facility can be affected through fire and hazardous materials.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Recycling Facility.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Recycling Facility.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Recycling Facility.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0034",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Recycling Facility.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Clearing House can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Clearing House.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Clearing House.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Clearing House.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil Clearing House can be affected through cyber and information systems.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil Clearing House.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Clearing House.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Clearing House.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Clearing House.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Clearing House.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Clearing House.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0035",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Clearing House.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Main Bank Operations Centre can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Main Bank Operations Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Main Bank Operations Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Main Bank Operations Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Main Bank Operations Centre can be affected through cyber and information systems.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Main Bank Operations Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Main Bank Operations Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Main Bank Operations Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Main Bank Operations Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Main Bank Operations Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Main Bank Operations Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0036",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Main Bank Operations Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "ATM Cash Centre can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to ATM Cash Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to ATM Cash Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to ATM Cash Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "ATM Cash Centre can be affected through cyber and information systems.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to ATM Cash Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to ATM Cash Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to ATM Cash Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to ATM Cash Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to ATM Cash Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to ATM Cash Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0037",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to ATM Cash Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Insurance Claims Centre can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Insurance Claims Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Insurance Claims Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Insurance Claims Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Insurance Claims Centre can be affected through cyber and information systems.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Insurance Claims Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Insurance Claims Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Insurance Claims Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Insurance Claims Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Insurance Claims Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Insurance Claims Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0038",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Insurance Claims Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Police Headquarters can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Police Headquarters.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Police Headquarters.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Police Headquarters.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Police Headquarters can be affected through cyber and information systems.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Police Headquarters.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Police Headquarters.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Police Headquarters.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Police Headquarters.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Police Headquarters.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Police Headquarters.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0039",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Police Headquarters.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Civil Defence Central Station can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Civil Defence Central Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Civil Defence Central Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Civil Defence Central Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Civil Defence Central Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Civil Defence Central Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Civil Defence Central Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Civil Defence Central Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Civil Defence Central Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Civil Defence Central Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Civil Defence Central Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0040",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Civil Defence Central Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Coast Guard Station can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Coast Guard Station can be affected through coastal and marine.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Coast Guard Station can be affected through flood and drainage.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Coast Guard Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Coast Guard Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Coast Guard Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Coast Guard Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Coast Guard Station.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Coast Guard Station.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Coast Guard Station.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Coast Guard Station.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0041",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Coast Guard Station.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Emergency Operations Centre can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Emergency Operations Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Emergency Operations Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Emergency Operations Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Emergency Operations Centre can be affected through cyber and information systems.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Emergency Operations Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Emergency Operations Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Emergency Operations Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Emergency Operations Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Emergency Operations Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Emergency Operations Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0042",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Emergency Operations Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Fire Station North can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Fire Station North.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Fire Station North.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Fire Station North.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Fire Station North.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Fire Station North.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Fire Station North.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Fire Station North.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Fire Station North.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Fire Station North.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Fire Station North.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0043",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Fire Station North.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Fire Station South can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Fire Station South.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Fire Station South can be affected through flood and drainage.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Fire Station South.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Fire Station South.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Fire Station South.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Fire Station South.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Fire Station South.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Fire Station South.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Fire Station South.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Fire Station South.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0044",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Fire Station South.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Central Food Market can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Central Food Market.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Central Food Market.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Central Food Market.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Central Food Market.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Central Food Market can be affected through supply chain.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Central Food Market can be affected through public health.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Central Food Market.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Central Food Market.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Central Food Market can be affected through transport disruption.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Central Food Market.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0045",
+    "channel_id": 12,
+    "exposed": true,
+    "evidence": "Central Food Market can be affected through mass gatherings and crowding.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Grain Silos can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Grain Silos can be affected through coastal and marine.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Grain Silos can be affected through flood and drainage.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Grain Silos.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Grain Silos.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Grain Silos can be affected through supply chain.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Grain Silos can be affected through public health.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Grain Silos.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Grain Silos.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Grain Silos can be affected through transport disruption.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Grain Silos.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0046",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Grain Silos.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Cold Storage Hub can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Cold Storage Hub.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Cold Storage Hub.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Cold Storage Hub.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Cold Storage Hub.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Cold Storage Hub can be affected through supply chain.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Cold Storage Hub can be affected through public health.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Cold Storage Hub.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Cold Storage Hub.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Cold Storage Hub can be affected through transport disruption.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Cold Storage Hub.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0047",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Cold Storage Hub.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Dairy Processing Plant can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Dairy Processing Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Dairy Processing Plant.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Dairy Processing Plant.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Dairy Processing Plant.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Dairy Processing Plant can be affected through supply chain.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Dairy Processing Plant can be affected through public health.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Dairy Processing Plant.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Dairy Processing Plant.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Dairy Processing Plant can be affected through transport disruption.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Dairy Processing Plant.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0048",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Dairy Processing Plant.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Bottled Water Factory can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Bottled Water Factory.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Bottled Water Factory can be affected through flood and drainage.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Bottled Water Factory.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Bottled Water Factory.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Bottled Water Factory can be affected through supply chain.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Bottled Water Factory can be affected through public health.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Bottled Water Factory.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Bottled Water Factory.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Bottled Water Factory can be affected through transport disruption.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Bottled Water Factory.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0049",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Bottled Water Factory.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Fish Market and Landing Site can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Fish Market and Landing Site can be affected through coastal and marine.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Fish Market and Landing Site.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Fish Market and Landing Site.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Fish Market and Landing Site.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Fish Market and Landing Site can be affected through supply chain.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Fish Market and Landing Site can be affected through public health.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Fish Market and Landing Site.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Fish Market and Landing Site.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Fish Market and Landing Site can be affected through transport disruption.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Fish Market and Landing Site.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0050",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Fish Market and Landing Site.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "City Hall can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to City Hall.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to City Hall.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to City Hall.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "City Hall can be affected through cyber and information systems.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to City Hall.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to City Hall.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to City Hall.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to City Hall.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to City Hall.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to City Hall.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0051",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to City Hall.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Courts Complex can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Courts Complex.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Courts Complex.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Courts Complex.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Courts Complex can be affected through cyber and information systems.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Courts Complex.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Courts Complex.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Courts Complex.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Courts Complex.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Courts Complex.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Courts Complex.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0052",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Courts Complex.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Civil Registry Centre can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Civil Registry Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Civil Registry Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Civil Registry Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Civil Registry Centre can be affected through cyber and information systems.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Civil Registry Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Civil Registry Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Civil Registry Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Civil Registry Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Civil Registry Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Civil Registry Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0053",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Civil Registry Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Government Services Centre can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Government Services Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Government Services Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Government Services Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Government Services Centre can be affected through cyber and information systems.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Government Services Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Government Services Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Government Services Centre.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Government Services Centre.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Government Services Centre.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Government Services Centre.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0054",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Government Services Centre.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Sports Hall (Emergency Shelter) can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Al Sahil Sports Hall (Emergency Shelter) can be affected through cyber and information systems.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Al Sahil Sports Hall (Emergency Shelter).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0055",
+    "channel_id": 12,
+    "exposed": true,
+    "evidence": "Al Sahil Sports Hall (Emergency Shelter) can be affected through mass gatherings and crowding.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Northern Schools Complex (Emergency Shelter) can be affected through weather and climate.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Northern Schools Complex (Emergency Shelter) can be affected through cyber and information systems.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "No credible path from supply chain to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "No credible path from technical failure of infrastructure to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0056",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Northern Schools Complex (Emergency Shelter).",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Water Quality Laboratory can be affected through weather and climate.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Water Quality Laboratory.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Water Quality Laboratory.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Water Quality Laboratory.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Water Quality Laboratory.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Water Quality Laboratory can be affected through supply chain.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Water Quality Laboratory.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Water Quality Laboratory.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Water Quality Laboratory can be affected through technical failure of infrastructure.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Water Quality Laboratory.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Water Quality Laboratory.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0057",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Water Quality Laboratory.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Chlorine Store can be affected through weather and climate.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Chlorine Store can be affected through coastal and marine.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Chlorine Store.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Chlorine Store.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Chlorine Store.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Chlorine Store can be affected through supply chain.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Chlorine Store.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Chlorine Store can be affected through fire and hazardous materials.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Chlorine Store can be affected through technical failure of infrastructure.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Chlorine Store.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Chlorine Store.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0058",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Chlorine Store.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Al Sahil Solar Park can be affected through weather and climate.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Al Sahil Solar Park.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Al Sahil Solar Park.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Al Sahil Solar Park.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Al Sahil Solar Park.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Al Sahil Solar Park can be affected through supply chain.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Al Sahil Solar Park.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "No credible path from fire and hazardous materials to Al Sahil Solar Park.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Al Sahil Solar Park can be affected through technical failure of infrastructure.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Al Sahil Solar Park.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 11,
+    "exposed": true,
+    "evidence": "Al Sahil Solar Park can be affected through space weather.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0059",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Al Sahil Solar Park.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Strategic Fuel Reserve Depot can be affected through weather and climate.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "No credible path from coastal and marine to Strategic Fuel Reserve Depot.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "No credible path from flood and drainage to Strategic Fuel Reserve Depot.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "No credible path from geological to Strategic Fuel Reserve Depot.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "No credible path from cyber and information systems to Strategic Fuel Reserve Depot.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Strategic Fuel Reserve Depot can be affected through supply chain.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "No credible path from public health to Strategic Fuel Reserve Depot.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 8,
+    "exposed": true,
+    "evidence": "Strategic Fuel Reserve Depot can be affected through fire and hazardous materials.",
+    "signed_by": "Saeed Al Nuaimi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Strategic Fuel Reserve Depot can be affected through technical failure of infrastructure.",
+    "signed_by": "Noura Al Shamsi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "No credible path from transport disruption to Strategic Fuel Reserve Depot.",
+    "signed_by": "Mariam Al Hammadi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "No credible path from space weather to Strategic Fuel Reserve Depot.",
+    "signed_by": "Khalid Al Mansoori",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-0060",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "No credible path from mass gatherings and crowding to Strategic Fuel Reserve Depot.",
+    "signed_by": "Fatima Al Ketbi",
+    "signed_at": "2026-06-11T14:00:00+04:00"
+  }
+]

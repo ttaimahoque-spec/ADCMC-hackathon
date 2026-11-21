@@ -1,0 +1,389 @@
+[
+  {
+    "risk_id": "RSK-HEAT-001",
+    "title": "Summer heat wave with grid stress",
+    "channels": [
+      1
+    ],
+    "likelihood": 0.21,
+    "likelihood_low": 0.15,
+    "likelihood_high": 0.28,
+    "horizon": "H2",
+    "velocity": "slow",
+    "warning_level": "green",
+    "coverage": "mute",
+    "updated_at": "2026-05-01T09:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-BLOOM-001",
+    "title": "Harmful algal bloom in the coastal waters",
+    "channels": [
+      2
+    ],
+    "likelihood": 0.15,
+    "likelihood_low": 0.1,
+    "likelihood_high": 0.22,
+    "horizon": "H2",
+    "velocity": "moderate",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-05-01T09:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-GEO-011",
+    "title": "Minor seismic activity offshore",
+    "channels": [
+      4
+    ],
+    "likelihood": 0.03,
+    "likelihood_low": 0.01,
+    "likelihood_high": 0.05,
+    "horizon": "H3",
+    "velocity": "fast",
+    "warning_level": "unverified",
+    "coverage": "blind",
+    "updated_at": "2026-06-03T14:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-HAZ-006",
+    "title": "Hazardous materials incident at a fuel or chemical store",
+    "channels": [
+      8
+    ],
+    "likelihood": 0.08,
+    "likelihood_low": 0.04,
+    "likelihood_high": 0.12,
+    "horizon": "H3",
+    "velocity": "fast",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-06-04T10:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-CYB-003",
+    "title": "Critical software vulnerability in municipal IT systems",
+    "channels": [
+      5
+    ],
+    "likelihood": 0.25,
+    "likelihood_low": 0.15,
+    "likelihood_high": 0.35,
+    "horizon": "H2",
+    "velocity": "fast",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2026-06-06T11:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-SUP-002",
+    "title": "Shipping delays for medical consumables",
+    "channels": [
+      6
+    ],
+    "likelihood": 0.35,
+    "likelihood_low": 0.25,
+    "likelihood_high": 0.45,
+    "horizon": "H2",
+    "velocity": "slow",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2026-06-13T09:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-TEC-007",
+    "title": "Ageing switchgear failures across the grid",
+    "channels": [
+      9
+    ],
+    "likelihood": 0.3,
+    "likelihood_low": 0.2,
+    "likelihood_high": 0.4,
+    "horizon": "H2",
+    "velocity": "moderate",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2026-06-16T10:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-PH-005",
+    "title": "Seasonal respiratory illness wave",
+    "channels": [
+      7
+    ],
+    "likelihood": 0.3,
+    "likelihood_low": 0.2,
+    "likelihood_high": 0.4,
+    "horizon": "H2",
+    "velocity": "moderate",
+    "warning_level": "amber",
+    "coverage": "blind",
+    "updated_at": "2026-06-21T08:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-SND-012",
+    "title": "Dust storm reducing visibility and solar output",
+    "channels": [
+      1,
+      10
+    ],
+    "likelihood": 0.45,
+    "likelihood_low": 0.35,
+    "likelihood_high": 0.55,
+    "horizon": "H1",
+    "velocity": "moderate",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2026-06-26T13:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-SND-012",
+    "title": "Dust storm reducing visibility and solar output",
+    "channels": [
+      1,
+      10
+    ],
+    "likelihood": 0.0,
+    "likelihood_low": 0.0,
+    "likelihood_high": 0.0,
+    "horizon": "H3",
+    "velocity": "slow",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-06-28T20:00:00+04:00",
+    "status": "closed"
+  },
+  {
+    "risk_id": "RSK-CYB-003",
+    "title": "Critical software vulnerability in municipal IT systems",
+    "channels": [
+      5
+    ],
+    "likelihood": 0.1,
+    "likelihood_low": 0.05,
+    "likelihood_high": 0.15,
+    "horizon": "H3",
+    "velocity": "fast",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-07-01T11:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-TRN-008",
+    "title": "Coastal highway closure for resurfacing works",
+    "channels": [
+      10
+    ],
+    "likelihood": 0.6,
+    "likelihood_low": 0.5,
+    "likelihood_high": 0.7,
+    "horizon": "H1",
+    "velocity": "slow",
+    "warning_level": "unverified",
+    "coverage": "live",
+    "updated_at": "2026-07-04T07:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-FLD-004",
+    "title": "Convective storm and flash flooding in low-lying districts",
+    "channels": [
+      3
+    ],
+    "likelihood": 0.4,
+    "likelihood_low": 0.3,
+    "likelihood_high": 0.55,
+    "horizon": "H1",
+    "velocity": "fast",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2026-07-12T15:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-FLD-004",
+    "title": "Convective storm and flash flooding in low-lying districts",
+    "channels": [
+      3
+    ],
+    "likelihood": 0.7,
+    "likelihood_low": 0.55,
+    "likelihood_high": 0.85,
+    "horizon": "H1",
+    "velocity": "fast",
+    "warning_level": "red",
+    "coverage": "live",
+    "updated_at": "2026-07-13T06:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-FLD-004",
+    "title": "Convective storm and flash flooding in low-lying districts",
+    "channels": [
+      3
+    ],
+    "likelihood": 0.0,
+    "likelihood_low": 0.0,
+    "likelihood_high": 0.0,
+    "horizon": "H3",
+    "velocity": "slow",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-07-16T18:00:00+04:00",
+    "status": "closed"
+  },
+  {
+    "risk_id": "RSK-SUP-002",
+    "title": "Shipping delays for medical consumables",
+    "channels": [
+      6
+    ],
+    "likelihood": 0.0,
+    "likelihood_low": 0.0,
+    "likelihood_high": 0.0,
+    "horizon": "H3",
+    "velocity": "slow",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-07-26T09:00:00+04:00",
+    "status": "closed"
+  },
+  {
+    "risk_id": "RSK-SPW-009",
+    "title": "Geomagnetic storm affecting navigation and radio",
+    "channels": [
+      11
+    ],
+    "likelihood": 0.12,
+    "likelihood_low": 0.05,
+    "likelihood_high": 0.2,
+    "horizon": "H1",
+    "velocity": "fast",
+    "warning_level": "amber",
+    "coverage": "mute",
+    "updated_at": "2026-07-29T22:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-SPW-009",
+    "title": "Geomagnetic storm affecting navigation and radio",
+    "channels": [
+      11
+    ],
+    "likelihood": 0.0,
+    "likelihood_low": 0.0,
+    "likelihood_high": 0.0,
+    "horizon": "H3",
+    "velocity": "fast",
+    "warning_level": "green",
+    "coverage": "mute",
+    "updated_at": "2026-07-31T22:00:00+04:00",
+    "status": "closed"
+  },
+  {
+    "risk_id": "RSK-TRN-008",
+    "title": "Coastal highway closure for resurfacing works",
+    "channels": [
+      10
+    ],
+    "likelihood": 0.0,
+    "likelihood_low": 0.0,
+    "likelihood_high": 0.0,
+    "horizon": "H3",
+    "velocity": "slow",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-08-03T07:00:00+04:00",
+    "status": "closed"
+  },
+  {
+    "risk_id": "RSK-CRD-010",
+    "title": "National-day crowds at the seafront and sports hall",
+    "channels": [
+      12
+    ],
+    "likelihood": 0.5,
+    "likelihood_low": 0.4,
+    "likelihood_high": 0.6,
+    "horizon": "H2",
+    "velocity": "moderate",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2026-08-06T12:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-PH-005",
+    "title": "Seasonal respiratory illness wave",
+    "channels": [
+      7
+    ],
+    "likelihood": 0.2,
+    "likelihood_low": 0.1,
+    "likelihood_high": 0.3,
+    "horizon": "H2",
+    "velocity": "moderate",
+    "warning_level": "green",
+    "coverage": "blind",
+    "updated_at": "2026-08-10T08:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-TEC-007",
+    "title": "Ageing switchgear failures across the grid",
+    "channels": [
+      9
+    ],
+    "likelihood": 0.45,
+    "likelihood_low": 0.35,
+    "likelihood_high": 0.55,
+    "horizon": "H1",
+    "velocity": "moderate",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2026-08-16T10:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-CYB-013",
+    "title": "Vulnerability in building-management systems",
+    "channels": [
+      5,
+      9
+    ],
+    "likelihood": 0.2,
+    "likelihood_low": 0.1,
+    "likelihood_high": 0.3,
+    "horizon": "H2",
+    "velocity": "moderate",
+    "warning_level": "unverified",
+    "coverage": "live",
+    "updated_at": "2026-08-24T16:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-BLOOM-001",
+    "title": "Harmful algal bloom drifting toward the desalination intake",
+    "channels": [
+      2
+    ],
+    "likelihood": 0.33,
+    "likelihood_low": 0.25,
+    "likelihood_high": 0.45,
+    "horizon": "H1",
+    "velocity": "fast",
+    "warning_level": "red",
+    "coverage": "live",
+    "updated_at": "2026-08-27T06:30:00+04:00",
+    "status": "open"
+  }
+]

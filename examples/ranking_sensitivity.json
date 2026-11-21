@@ -1,0 +1,2234 @@
+[
+  {
+    "label": "Audit −20%",
+    "weights": [
+      0.3478,
+      0.3261,
+      0.3261
+    ],
+    "moved": 19,
+    "max_movement": 2,
+    "changes": [
+      {
+        "asset_id": "AST-0010",
+        "baseline": 16,
+        "rank": 18,
+        "movement": -2
+      },
+      {
+        "asset_id": "AST-0013",
+        "baseline": 18,
+        "rank": 16,
+        "movement": 2
+      },
+      {
+        "asset_id": "AST-0017",
+        "baseline": 21,
+        "rank": 19,
+        "movement": 2
+      },
+      {
+        "asset_id": "AST-0003",
+        "baseline": 19,
+        "rank": 20,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0005",
+        "baseline": 7,
+        "rank": 6,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0008",
+        "baseline": 11,
+        "rank": 10,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0014",
+        "baseline": 20,
+        "rank": 21,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0015",
+        "baseline": 10,
+        "rank": 11,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0016",
+        "baseline": 34,
+        "rank": 35,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0018",
+        "baseline": 6,
+        "rank": 7,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0019",
+        "baseline": 14,
+        "rank": 13,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0022",
+        "baseline": 48,
+        "rank": 49,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0024",
+        "baseline": 35,
+        "rank": 34,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0029",
+        "baseline": 33,
+        "rank": 32,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0035",
+        "baseline": 30,
+        "rank": 31,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0042",
+        "baseline": 31,
+        "rank": 30,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0045",
+        "baseline": 49,
+        "rank": 48,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0046",
+        "baseline": 13,
+        "rank": 14,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0052",
+        "baseline": 32,
+        "rank": 33,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0001",
+        "baseline": 3,
+        "rank": 3,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0002",
+        "baseline": 2,
+        "rank": 2,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0004",
+        "baseline": 9,
+        "rank": 9,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0006",
+        "baseline": 28,
+        "rank": 28,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0007",
+        "baseline": 43,
+        "rank": 43,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0009",
+        "baseline": 15,
+        "rank": 15,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0011",
+        "baseline": 1,
+        "rank": 1,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0012",
+        "baseline": 44,
+        "rank": 44,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0020",
+        "baseline": 4,
+        "rank": 4,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0021",
+        "baseline": 17,
+        "rank": 17,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0023",
+        "baseline": 52,
+        "rank": 52,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0025",
+        "baseline": 42,
+        "rank": 42,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0026",
+        "baseline": 24,
+        "rank": 24,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0027",
+        "baseline": 46,
+        "rank": 46,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0028",
+        "baseline": 53,
+        "rank": 53,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0030",
+        "baseline": 47,
+        "rank": 47,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0031",
+        "baseline": 45,
+        "rank": 45,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0032",
+        "baseline": 58,
+        "rank": 58,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0033",
+        "baseline": 36,
+        "rank": 36,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0034",
+        "baseline": 59,
+        "rank": 59,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0036",
+        "baseline": 39,
+        "rank": 39,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0037",
+        "baseline": 51,
+        "rank": 51,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0038",
+        "baseline": 60,
+        "rank": 60,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0039",
+        "baseline": 25,
+        "rank": 25,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0040",
+        "baseline": 40,
+        "rank": 40,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0041",
+        "baseline": 8,
+        "rank": 8,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0043",
+        "baseline": 55,
+        "rank": 55,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0044",
+        "baseline": 54,
+        "rank": 54,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0047",
+        "baseline": 26,
+        "rank": 26,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0048",
+        "baseline": 41,
+        "rank": 41,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0049",
+        "baseline": 27,
+        "rank": 27,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0050",
+        "baseline": 57,
+        "rank": 57,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0051",
+        "baseline": 38,
+        "rank": 38,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0053",
+        "baseline": 29,
+        "rank": 29,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0054",
+        "baseline": 56,
+        "rank": 56,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0055",
+        "baseline": 37,
+        "rank": 37,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0056",
+        "baseline": 50,
+        "rank": 50,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0057",
+        "baseline": 12,
+        "rank": 12,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0058",
+        "baseline": 5,
+        "rank": 5,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0059",
+        "baseline": 22,
+        "rank": 22,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0060",
+        "baseline": 23,
+        "rank": 23,
+        "movement": 0
+      }
+    ]
+  },
+  {
+    "label": "Audit +20%",
+    "weights": [
+      0.4444,
+      0.2778,
+      0.2778
+    ],
+    "moved": 6,
+    "max_movement": 1,
+    "changes": [
+      {
+        "asset_id": "AST-0003",
+        "baseline": 19,
+        "rank": 20,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0007",
+        "baseline": 43,
+        "rank": 42,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0014",
+        "baseline": 20,
+        "rank": 19,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0025",
+        "baseline": 42,
+        "rank": 43,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0035",
+        "baseline": 30,
+        "rank": 29,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0053",
+        "baseline": 29,
+        "rank": 30,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0001",
+        "baseline": 3,
+        "rank": 3,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0002",
+        "baseline": 2,
+        "rank": 2,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0004",
+        "baseline": 9,
+        "rank": 9,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0005",
+        "baseline": 7,
+        "rank": 7,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0006",
+        "baseline": 28,
+        "rank": 28,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0008",
+        "baseline": 11,
+        "rank": 11,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0009",
+        "baseline": 15,
+        "rank": 15,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0010",
+        "baseline": 16,
+        "rank": 16,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0011",
+        "baseline": 1,
+        "rank": 1,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0012",
+        "baseline": 44,
+        "rank": 44,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0013",
+        "baseline": 18,
+        "rank": 18,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0015",
+        "baseline": 10,
+        "rank": 10,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0016",
+        "baseline": 34,
+        "rank": 34,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0017",
+        "baseline": 21,
+        "rank": 21,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0018",
+        "baseline": 6,
+        "rank": 6,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0019",
+        "baseline": 14,
+        "rank": 14,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0020",
+        "baseline": 4,
+        "rank": 4,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0021",
+        "baseline": 17,
+        "rank": 17,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0022",
+        "baseline": 48,
+        "rank": 48,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0023",
+        "baseline": 52,
+        "rank": 52,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0024",
+        "baseline": 35,
+        "rank": 35,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0026",
+        "baseline": 24,
+        "rank": 24,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0027",
+        "baseline": 46,
+        "rank": 46,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0028",
+        "baseline": 53,
+        "rank": 53,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0029",
+        "baseline": 33,
+        "rank": 33,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0030",
+        "baseline": 47,
+        "rank": 47,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0031",
+        "baseline": 45,
+        "rank": 45,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0032",
+        "baseline": 58,
+        "rank": 58,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0033",
+        "baseline": 36,
+        "rank": 36,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0034",
+        "baseline": 59,
+        "rank": 59,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0036",
+        "baseline": 39,
+        "rank": 39,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0037",
+        "baseline": 51,
+        "rank": 51,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0038",
+        "baseline": 60,
+        "rank": 60,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0039",
+        "baseline": 25,
+        "rank": 25,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0040",
+        "baseline": 40,
+        "rank": 40,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0041",
+        "baseline": 8,
+        "rank": 8,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0042",
+        "baseline": 31,
+        "rank": 31,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0043",
+        "baseline": 55,
+        "rank": 55,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0044",
+        "baseline": 54,
+        "rank": 54,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0045",
+        "baseline": 49,
+        "rank": 49,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0046",
+        "baseline": 13,
+        "rank": 13,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0047",
+        "baseline": 26,
+        "rank": 26,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0048",
+        "baseline": 41,
+        "rank": 41,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0049",
+        "baseline": 27,
+        "rank": 27,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0050",
+        "baseline": 57,
+        "rank": 57,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0051",
+        "baseline": 38,
+        "rank": 38,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0052",
+        "baseline": 32,
+        "rank": 32,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0054",
+        "baseline": 56,
+        "rank": 56,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0055",
+        "baseline": 37,
+        "rank": 37,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0056",
+        "baseline": 50,
+        "rank": 50,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0057",
+        "baseline": 12,
+        "rank": 12,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0058",
+        "baseline": 5,
+        "rank": 5,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0059",
+        "baseline": 22,
+        "rank": 22,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0060",
+        "baseline": 23,
+        "rank": 23,
+        "movement": 0
+      }
+    ]
+  },
+  {
+    "label": "Controls −20%",
+    "weights": [
+      0.4255,
+      0.2553,
+      0.3191
+    ],
+    "moved": 13,
+    "max_movement": 2,
+    "changes": [
+      {
+        "asset_id": "AST-0048",
+        "baseline": 41,
+        "rank": 43,
+        "movement": -2
+      },
+      {
+        "asset_id": "AST-0005",
+        "baseline": 7,
+        "rank": 8,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0007",
+        "baseline": 43,
+        "rank": 42,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0012",
+        "baseline": 44,
+        "rank": 45,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0025",
+        "baseline": 42,
+        "rank": 41,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0031",
+        "baseline": 45,
+        "rank": 44,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0035",
+        "baseline": 30,
+        "rank": 31,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0036",
+        "baseline": 39,
+        "rank": 40,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0039",
+        "baseline": 25,
+        "rank": 26,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0040",
+        "baseline": 40,
+        "rank": 39,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0041",
+        "baseline": 8,
+        "rank": 7,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0042",
+        "baseline": 31,
+        "rank": 30,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0047",
+        "baseline": 26,
+        "rank": 25,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0001",
+        "baseline": 3,
+        "rank": 3,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0002",
+        "baseline": 2,
+        "rank": 2,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0003",
+        "baseline": 19,
+        "rank": 19,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0004",
+        "baseline": 9,
+        "rank": 9,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0006",
+        "baseline": 28,
+        "rank": 28,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0008",
+        "baseline": 11,
+        "rank": 11,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0009",
+        "baseline": 15,
+        "rank": 15,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0010",
+        "baseline": 16,
+        "rank": 16,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0011",
+        "baseline": 1,
+        "rank": 1,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0013",
+        "baseline": 18,
+        "rank": 18,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0014",
+        "baseline": 20,
+        "rank": 20,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0015",
+        "baseline": 10,
+        "rank": 10,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0016",
+        "baseline": 34,
+        "rank": 34,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0017",
+        "baseline": 21,
+        "rank": 21,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0018",
+        "baseline": 6,
+        "rank": 6,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0019",
+        "baseline": 14,
+        "rank": 14,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0020",
+        "baseline": 4,
+        "rank": 4,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0021",
+        "baseline": 17,
+        "rank": 17,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0022",
+        "baseline": 48,
+        "rank": 48,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0023",
+        "baseline": 52,
+        "rank": 52,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0024",
+        "baseline": 35,
+        "rank": 35,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0026",
+        "baseline": 24,
+        "rank": 24,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0027",
+        "baseline": 46,
+        "rank": 46,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0028",
+        "baseline": 53,
+        "rank": 53,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0029",
+        "baseline": 33,
+        "rank": 33,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0030",
+        "baseline": 47,
+        "rank": 47,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0032",
+        "baseline": 58,
+        "rank": 58,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0033",
+        "baseline": 36,
+        "rank": 36,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0034",
+        "baseline": 59,
+        "rank": 59,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0037",
+        "baseline": 51,
+        "rank": 51,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0038",
+        "baseline": 60,
+        "rank": 60,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0043",
+        "baseline": 55,
+        "rank": 55,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0044",
+        "baseline": 54,
+        "rank": 54,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0045",
+        "baseline": 49,
+        "rank": 49,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0046",
+        "baseline": 13,
+        "rank": 13,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0049",
+        "baseline": 27,
+        "rank": 27,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0050",
+        "baseline": 57,
+        "rank": 57,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0051",
+        "baseline": 38,
+        "rank": 38,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0052",
+        "baseline": 32,
+        "rank": 32,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0053",
+        "baseline": 29,
+        "rank": 29,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0054",
+        "baseline": 56,
+        "rank": 56,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0055",
+        "baseline": 37,
+        "rank": 37,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0056",
+        "baseline": 50,
+        "rank": 50,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0057",
+        "baseline": 12,
+        "rank": 12,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0058",
+        "baseline": 5,
+        "rank": 5,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0059",
+        "baseline": 22,
+        "rank": 22,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0060",
+        "baseline": 23,
+        "rank": 23,
+        "movement": 0
+      }
+    ]
+  },
+  {
+    "label": "Controls +20%",
+    "weights": [
+      0.3774,
+      0.3396,
+      0.283
+    ],
+    "moved": 16,
+    "max_movement": 2,
+    "changes": [
+      {
+        "asset_id": "AST-0003",
+        "baseline": 19,
+        "rank": 21,
+        "movement": -2
+      },
+      {
+        "asset_id": "AST-0017",
+        "baseline": 21,
+        "rank": 19,
+        "movement": 2
+      },
+      {
+        "asset_id": "AST-0004",
+        "baseline": 9,
+        "rank": 8,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0007",
+        "baseline": 43,
+        "rank": 42,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0008",
+        "baseline": 11,
+        "rank": 10,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0015",
+        "baseline": 10,
+        "rank": 11,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0016",
+        "baseline": 34,
+        "rank": 35,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0022",
+        "baseline": 48,
+        "rank": 49,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0023",
+        "baseline": 52,
+        "rank": 53,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0024",
+        "baseline": 35,
+        "rank": 34,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0025",
+        "baseline": 42,
+        "rank": 43,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0028",
+        "baseline": 53,
+        "rank": 52,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0029",
+        "baseline": 33,
+        "rank": 32,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0041",
+        "baseline": 8,
+        "rank": 9,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0045",
+        "baseline": 49,
+        "rank": 48,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0052",
+        "baseline": 32,
+        "rank": 33,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0001",
+        "baseline": 3,
+        "rank": 3,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0002",
+        "baseline": 2,
+        "rank": 2,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0005",
+        "baseline": 7,
+        "rank": 7,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0006",
+        "baseline": 28,
+        "rank": 28,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0009",
+        "baseline": 15,
+        "rank": 15,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0010",
+        "baseline": 16,
+        "rank": 16,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0011",
+        "baseline": 1,
+        "rank": 1,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0012",
+        "baseline": 44,
+        "rank": 44,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0013",
+        "baseline": 18,
+        "rank": 18,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0014",
+        "baseline": 20,
+        "rank": 20,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0018",
+        "baseline": 6,
+        "rank": 6,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0019",
+        "baseline": 14,
+        "rank": 14,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0020",
+        "baseline": 4,
+        "rank": 4,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0021",
+        "baseline": 17,
+        "rank": 17,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0026",
+        "baseline": 24,
+        "rank": 24,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0027",
+        "baseline": 46,
+        "rank": 46,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0030",
+        "baseline": 47,
+        "rank": 47,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0031",
+        "baseline": 45,
+        "rank": 45,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0032",
+        "baseline": 58,
+        "rank": 58,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0033",
+        "baseline": 36,
+        "rank": 36,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0034",
+        "baseline": 59,
+        "rank": 59,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0035",
+        "baseline": 30,
+        "rank": 30,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0036",
+        "baseline": 39,
+        "rank": 39,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0037",
+        "baseline": 51,
+        "rank": 51,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0038",
+        "baseline": 60,
+        "rank": 60,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0039",
+        "baseline": 25,
+        "rank": 25,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0040",
+        "baseline": 40,
+        "rank": 40,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0042",
+        "baseline": 31,
+        "rank": 31,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0043",
+        "baseline": 55,
+        "rank": 55,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0044",
+        "baseline": 54,
+        "rank": 54,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0046",
+        "baseline": 13,
+        "rank": 13,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0047",
+        "baseline": 26,
+        "rank": 26,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0048",
+        "baseline": 41,
+        "rank": 41,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0049",
+        "baseline": 27,
+        "rank": 27,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0050",
+        "baseline": 57,
+        "rank": 57,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0051",
+        "baseline": 38,
+        "rank": 38,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0053",
+        "baseline": 29,
+        "rank": 29,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0054",
+        "baseline": 56,
+        "rank": 56,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0055",
+        "baseline": 37,
+        "rank": 37,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0056",
+        "baseline": 50,
+        "rank": 50,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0057",
+        "baseline": 12,
+        "rank": 12,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0058",
+        "baseline": 5,
+        "rank": 5,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0059",
+        "baseline": 22,
+        "rank": 22,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0060",
+        "baseline": 23,
+        "rank": 23,
+        "movement": 0
+      }
+    ]
+  },
+  {
+    "label": "Irreplaceability −20%",
+    "weights": [
+      0.4255,
+      0.3191,
+      0.2553
+    ],
+    "moved": 13,
+    "max_movement": 2,
+    "changes": [
+      {
+        "asset_id": "AST-0003",
+        "baseline": 19,
+        "rank": 21,
+        "movement": -2
+      },
+      {
+        "asset_id": "AST-0007",
+        "baseline": 43,
+        "rank": 41,
+        "movement": 2
+      },
+      {
+        "asset_id": "AST-0040",
+        "baseline": 40,
+        "rank": 42,
+        "movement": -2
+      },
+      {
+        "asset_id": "AST-0004",
+        "baseline": 9,
+        "rank": 8,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0014",
+        "baseline": 20,
+        "rank": 19,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0017",
+        "baseline": 21,
+        "rank": 20,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0022",
+        "baseline": 48,
+        "rank": 49,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0025",
+        "baseline": 42,
+        "rank": 43,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0035",
+        "baseline": 30,
+        "rank": 29,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0041",
+        "baseline": 8,
+        "rank": 9,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0045",
+        "baseline": 49,
+        "rank": 48,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0048",
+        "baseline": 41,
+        "rank": 40,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0053",
+        "baseline": 29,
+        "rank": 30,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0001",
+        "baseline": 3,
+        "rank": 3,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0002",
+        "baseline": 2,
+        "rank": 2,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0005",
+        "baseline": 7,
+        "rank": 7,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0006",
+        "baseline": 28,
+        "rank": 28,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0008",
+        "baseline": 11,
+        "rank": 11,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0009",
+        "baseline": 15,
+        "rank": 15,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0010",
+        "baseline": 16,
+        "rank": 16,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0011",
+        "baseline": 1,
+        "rank": 1,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0012",
+        "baseline": 44,
+        "rank": 44,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0013",
+        "baseline": 18,
+        "rank": 18,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0015",
+        "baseline": 10,
+        "rank": 10,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0016",
+        "baseline": 34,
+        "rank": 34,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0018",
+        "baseline": 6,
+        "rank": 6,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0019",
+        "baseline": 14,
+        "rank": 14,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0020",
+        "baseline": 4,
+        "rank": 4,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0021",
+        "baseline": 17,
+        "rank": 17,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0023",
+        "baseline": 52,
+        "rank": 52,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0024",
+        "baseline": 35,
+        "rank": 35,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0026",
+        "baseline": 24,
+        "rank": 24,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0027",
+        "baseline": 46,
+        "rank": 46,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0028",
+        "baseline": 53,
+        "rank": 53,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0029",
+        "baseline": 33,
+        "rank": 33,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0030",
+        "baseline": 47,
+        "rank": 47,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0031",
+        "baseline": 45,
+        "rank": 45,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0032",
+        "baseline": 58,
+        "rank": 58,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0033",
+        "baseline": 36,
+        "rank": 36,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0034",
+        "baseline": 59,
+        "rank": 59,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0036",
+        "baseline": 39,
+        "rank": 39,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0037",
+        "baseline": 51,
+        "rank": 51,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0038",
+        "baseline": 60,
+        "rank": 60,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0039",
+        "baseline": 25,
+        "rank": 25,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0042",
+        "baseline": 31,
+        "rank": 31,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0043",
+        "baseline": 55,
+        "rank": 55,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0044",
+        "baseline": 54,
+        "rank": 54,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0046",
+        "baseline": 13,
+        "rank": 13,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0047",
+        "baseline": 26,
+        "rank": 26,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0049",
+        "baseline": 27,
+        "rank": 27,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0050",
+        "baseline": 57,
+        "rank": 57,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0051",
+        "baseline": 38,
+        "rank": 38,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0052",
+        "baseline": 32,
+        "rank": 32,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0054",
+        "baseline": 56,
+        "rank": 56,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0055",
+        "baseline": 37,
+        "rank": 37,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0056",
+        "baseline": 50,
+        "rank": 50,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0057",
+        "baseline": 12,
+        "rank": 12,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0058",
+        "baseline": 5,
+        "rank": 5,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0059",
+        "baseline": 22,
+        "rank": 22,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0060",
+        "baseline": 23,
+        "rank": 23,
+        "movement": 0
+      }
+    ]
+  },
+  {
+    "label": "Irreplaceability +20%",
+    "weights": [
+      0.3774,
+      0.283,
+      0.3396
+    ],
+    "moved": 14,
+    "max_movement": 3,
+    "changes": [
+      {
+        "asset_id": "AST-0031",
+        "baseline": 45,
+        "rank": 42,
+        "movement": 3
+      },
+      {
+        "asset_id": "AST-0048",
+        "baseline": 41,
+        "rank": 44,
+        "movement": -3
+      },
+      {
+        "asset_id": "AST-0005",
+        "baseline": 7,
+        "rank": 6,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0008",
+        "baseline": 11,
+        "rank": 10,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0012",
+        "baseline": 44,
+        "rank": 45,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0015",
+        "baseline": 10,
+        "rank": 11,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0018",
+        "baseline": 6,
+        "rank": 7,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0025",
+        "baseline": 42,
+        "rank": 41,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0029",
+        "baseline": 33,
+        "rank": 32,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0035",
+        "baseline": 30,
+        "rank": 31,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0036",
+        "baseline": 39,
+        "rank": 40,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0040",
+        "baseline": 40,
+        "rank": 39,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0042",
+        "baseline": 31,
+        "rank": 30,
+        "movement": 1
+      },
+      {
+        "asset_id": "AST-0052",
+        "baseline": 32,
+        "rank": 33,
+        "movement": -1
+      },
+      {
+        "asset_id": "AST-0001",
+        "baseline": 3,
+        "rank": 3,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0002",
+        "baseline": 2,
+        "rank": 2,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0003",
+        "baseline": 19,
+        "rank": 19,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0004",
+        "baseline": 9,
+        "rank": 9,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0006",
+        "baseline": 28,
+        "rank": 28,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0007",
+        "baseline": 43,
+        "rank": 43,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0009",
+        "baseline": 15,
+        "rank": 15,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0010",
+        "baseline": 16,
+        "rank": 16,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0011",
+        "baseline": 1,
+        "rank": 1,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0013",
+        "baseline": 18,
+        "rank": 18,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0014",
+        "baseline": 20,
+        "rank": 20,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0016",
+        "baseline": 34,
+        "rank": 34,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0017",
+        "baseline": 21,
+        "rank": 21,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0019",
+        "baseline": 14,
+        "rank": 14,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0020",
+        "baseline": 4,
+        "rank": 4,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0021",
+        "baseline": 17,
+        "rank": 17,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0022",
+        "baseline": 48,
+        "rank": 48,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0023",
+        "baseline": 52,
+        "rank": 52,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0024",
+        "baseline": 35,
+        "rank": 35,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0026",
+        "baseline": 24,
+        "rank": 24,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0027",
+        "baseline": 46,
+        "rank": 46,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0028",
+        "baseline": 53,
+        "rank": 53,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0030",
+        "baseline": 47,
+        "rank": 47,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0032",
+        "baseline": 58,
+        "rank": 58,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0033",
+        "baseline": 36,
+        "rank": 36,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0034",
+        "baseline": 59,
+        "rank": 59,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0037",
+        "baseline": 51,
+        "rank": 51,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0038",
+        "baseline": 60,
+        "rank": 60,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0039",
+        "baseline": 25,
+        "rank": 25,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0041",
+        "baseline": 8,
+        "rank": 8,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0043",
+        "baseline": 55,
+        "rank": 55,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0044",
+        "baseline": 54,
+        "rank": 54,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0045",
+        "baseline": 49,
+        "rank": 49,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0046",
+        "baseline": 13,
+        "rank": 13,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0047",
+        "baseline": 26,
+        "rank": 26,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0049",
+        "baseline": 27,
+        "rank": 27,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0050",
+        "baseline": 57,
+        "rank": 57,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0051",
+        "baseline": 38,
+        "rank": 38,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0053",
+        "baseline": 29,
+        "rank": 29,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0054",
+        "baseline": 56,
+        "rank": 56,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0055",
+        "baseline": 37,
+        "rank": 37,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0056",
+        "baseline": 50,
+        "rank": 50,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0057",
+        "baseline": 12,
+        "rank": 12,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0058",
+        "baseline": 5,
+        "rank": 5,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0059",
+        "baseline": 22,
+        "rank": 22,
+        "movement": 0
+      },
+      {
+        "asset_id": "AST-0060",
+        "baseline": 23,
+        "rank": 23,
+        "movement": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "risk_id": "RSK-S-002",
+    "title": "Regional supplier insolvency affecting spare parts",
+    "channels": [
+      6
+    ],
+    "likelihood": 0.25,
+    "likelihood_low": 0.175,
+    "likelihood_high": 0.325,
+    "horizon": "H2",
+    "velocity": "slow",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2026-12-24T09:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-S-003",
+    "title": "Software fault in metering and control systems",
+    "channels": [
+      5,
+      9
+    ],
+    "likelihood": 0.2,
+    "likelihood_low": 0.14,
+    "likelihood_high": 0.26,
+    "horizon": "H2",
+    "velocity": "moderate",
+    "warning_level": "unverified",
+    "coverage": "mute",
+    "updated_at": "2027-01-06T09:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-S-006",
+    "title": "Road works closing the ring road",
+    "channels": [
+      10
+    ],
+    "likelihood": 0.8,
+    "likelihood_low": 0.56,
+    "likelihood_high": 1,
+    "horizon": "H1",
+    "velocity": "slow",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2027-02-07T09:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-S-003",
+    "title": "Software fault in metering and control systems",
+    "channels": [
+      5,
+      9
+    ],
+    "likelihood": 0.45,
+    "likelihood_low": 0.315,
+    "likelihood_high": 0.585,
+    "horizon": "H1",
+    "velocity": "fast",
+    "warning_level": "amber",
+    "coverage": "live",
+    "updated_at": "2027-02-27T09:00:00+04:00",
+    "status": "open"
+  },
+  {
+    "risk_id": "RSK-S-006",
+    "title": "Road works closing the ring road",
+    "channels": [
+      10
+    ],
+    "likelihood": 0.0,
+    "likelihood_low": 0.0,
+    "likelihood_high": 0.0,
+    "horizon": "H3",
+    "velocity": "slow",
+    "warning_level": "green",
+    "coverage": "live",
+    "updated_at": "2027-03-14T09:00:00+04:00",
+    "status": "closed"
+  }
+]

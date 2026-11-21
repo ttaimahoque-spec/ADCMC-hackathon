@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/score.schema.json",
+  "title": "score",
+  "description": "One score for one facility at one time. Appended to a history store.",
+  "type": "object",
+  "properties": {
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-\\d{4}$"
+    },
+    "computed_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "score_exact": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "band": {
+      "enum": [
+        "Low",
+        "Guarded",
+        "Elevated",
+        "High",
+        "Severe"
+      ]
+    },
+    "override_applied": {
+      "type": "boolean"
+    },
+    "confidence": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "pillars": {
+      "type": "object",
+      "properties": {
+        "T": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "V": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "R": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "C": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        }
+      },
+      "required": [
+        "T",
+        "V",
+        "R",
+        "C"
+      ],
+      "additionalProperties": true
+    },
+    "drivers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "factor": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "change",
+              "weakness"
+            ]
+          },
+          "effect": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "factor",
+          "kind",
+          "effect"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "levers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "measure": {
+            "type": "string"
+          },
+          "score_after": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "measure",
+          "score_after"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "trend": {
+      "type": "object",
+      "properties": {
+        "d7": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "d30": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "d90": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "d7",
+        "d30",
+        "d90"
+      ],
+      "additionalProperties": true
+    },
+    "dependent_plans": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "proposed_checkup": {
+          "type": "boolean"
+        },
+        "acknowledged_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "proposed_checkup",
+        "acknowledged_by"
+      ],
+      "additionalProperties": true
+    },
+    "inputs_hash": {
+      "type": "string",
+      "pattern": "^sha256:"
+    },
+    "model_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "asset_id",
+    "computed_at",
+    "score",
+    "score_exact",
+    "band",
+    "override_applied",
+    "confidence",
+    "pillars",
+    "drivers",
+    "levers",
+    "trend",
+    "dependent_plans",
+    "review",
+    "inputs_hash",
+    "model_version"
+  ],
+  "additionalProperties": true
+}

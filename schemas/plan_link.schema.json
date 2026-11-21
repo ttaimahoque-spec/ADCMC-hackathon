@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/plan_link.schema.json",
+  "title": "plan_link",
+  "description": "Which plan section relies on which facility, and what it claims about it.",
+  "type": "object",
+  "properties": {
+    "plan_id": {
+      "type": "string"
+    },
+    "plan_version": {
+      "type": "string"
+    },
+    "section_ref": {
+      "type": "string"
+    },
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-\\d{4}$"
+    },
+    "assumption": {
+      "type": "string"
+    },
+    "claim": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "field": {
+          "type": "string"
+        },
+        "value": {}
+      },
+      "required": [
+        "field",
+        "value"
+      ]
+    },
+    "reliance": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  },
+  "required": [
+    "plan_id",
+    "plan_version",
+    "section_ref",
+    "asset_id",
+    "assumption",
+    "claim",
+    "reliance"
+  ],
+  "additionalProperties": true
+}

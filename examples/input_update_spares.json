@@ -1,0 +1,118 @@
+{
+  "effective_at": "2026-08-28T06:40:00+04:00",
+  "facilities": [
+    {
+      "asset_id": "AST-0001",
+      "name_ar": "محطة الساحل لتحلية المياه",
+      "name_en": "Al Sahil Desalination Plant",
+      "sector": "energy_water_wastewater",
+      "category": 1,
+      "location": {
+        "x_km": 3.2,
+        "y_km": 18.5
+      },
+      "owner": "Al Sahil Water Utility",
+      "operator": "Al Sahil Desalination Operations",
+      "status": "operating",
+      "status_updated_at": "2026-08-20T08:00:00+04:00",
+      "people_served": 700000,
+      "share_of_city_supply": 0.7,
+      "dependencies": [
+        {
+          "upstream_asset_id": "AST-0002",
+          "kind": "power"
+        },
+        {
+          "upstream_asset_id": "AST-0003",
+          "kind": "power"
+        },
+        {
+          "upstream_asset_id": "AST-0058",
+          "kind": "supplier"
+        }
+      ],
+      "irreplaceability": "single",
+      "audit_domains": [
+        {
+          "domain": "physical_condition",
+          "score": 4,
+          "assessed_at": "2026-07-11T10:00:00+04:00"
+        },
+        {
+          "domain": "operational_resilience",
+          "score": 5,
+          "assessed_at": "2026-07-11T10:00:00+04:00"
+        },
+        {
+          "domain": "cyber_hygiene",
+          "score": 3,
+          "assessed_at": "2026-07-11T10:00:00+04:00"
+        },
+        {
+          "domain": "emergency_preparedness",
+          "score": 5,
+          "assessed_at": "2026-07-11T10:00:00+04:00"
+        }
+      ],
+      "controls": [
+        {
+          "name": "intake screening",
+          "state": "tested_current",
+          "verified_at": "2026-08-10T09:00:00+04:00"
+        },
+        {
+          "name": "backup power",
+          "state": "tested_stale",
+          "verified_at": "2026-07-31T09:00:00+04:00"
+        },
+        {
+          "name": "algal monitoring",
+          "state": "present_untested",
+          "verified_at": "2026-08-05T09:00:00+04:00"
+        },
+        {
+          "name": "cyber monitoring",
+          "state": null,
+          "verified_at": null
+        }
+      ],
+      "continuity": {
+        "n1_redundant": false,
+        "buffer_hours": 24,
+        "buffer_target_hours": 72,
+        "rto_hours": 1440,
+        "mtd_hours": 72,
+        "spares_on_site": true,
+        "plan_current": true,
+        "exercise": "tabletop"
+      },
+      "provenance": {
+        "status": {
+          "source": "operator daily report",
+          "last_verified": "2026-08-26T07:00:00+04:00",
+          "cadence_days": 7
+        },
+        "continuity": {
+          "source": "business-continuity return (BCM)",
+          "last_verified": "2026-07-21T12:00:00+04:00",
+          "cadence_days": 180
+        },
+        "audit_domains": {
+          "source": "infrastructure audit",
+          "last_verified": "2026-07-11T10:00:00+04:00",
+          "cadence_days": 365
+        },
+        "controls": {
+          "source": "control verification log",
+          "last_verified": "2026-08-10T09:00:00+04:00",
+          "cadence_days": 180
+        },
+        "people_served": {
+          "source": "municipal service register",
+          "last_verified": "2026-06-11T09:00:00+04:00",
+          "cadence_days": 365
+        }
+      }
+    }
+  ]
+}

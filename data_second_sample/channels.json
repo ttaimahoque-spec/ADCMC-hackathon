@@ -1,0 +1,62 @@
+[
+  {
+    "channel_id": 1,
+    "name_ar": "الطقس والمناخ",
+    "name_en": "Weather and climate"
+  },
+  {
+    "channel_id": 2,
+    "name_ar": "السواحل والبيئة البحرية",
+    "name_en": "Coastal and marine"
+  },
+  {
+    "channel_id": 3,
+    "name_ar": "الفيضانات وتصريف المياه",
+    "name_en": "Flood and drainage"
+  },
+  {
+    "channel_id": 4,
+    "name_ar": "المخاطر الجيولوجية",
+    "name_en": "Geological"
+  },
+  {
+    "channel_id": 5,
+    "name_ar": "الأمن السيبراني ونظم المعلومات",
+    "name_en": "Cyber and information systems"
+  },
+  {
+    "channel_id": 6,
+    "name_ar": "سلاسل الإمداد",
+    "name_en": "Supply chain"
+  },
+  {
+    "channel_id": 7,
+    "name_ar": "الصحة العامة",
+    "name_en": "Public health"
+  },
+  {
+    "channel_id": 8,
+    "name_ar": "الحرائق والمواد الخطرة",
+    "name_en": "Fire and hazardous materials"
+  },
+  {
+    "channel_id": 9,
+    "name_ar": "الأعطال الفنية في البنية التحتية",
+    "name_en": "Technical failure of infrastructure"
+  },
+  {
+    "channel_id": 10,
+    "name_ar": "تعطل النقل",
+    "name_en": "Transport disruption"
+  },
+  {
+    "channel_id": 11,
+    "name_ar": "الطقس الفضائي",
+    "name_en": "Space weather"
+  },
+  {
+    "channel_id": 12,
+    "name_ar": "التجمعات الكبيرة والازدحام",
+    "name_en": "Mass gatherings and crowding"
+  }
+]

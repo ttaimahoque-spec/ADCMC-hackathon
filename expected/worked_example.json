@@ -1,0 +1,89 @@
+{
+  "asset_id": "AST-0001",
+  "evening_before": {
+    "at": "2026-08-26T20:00:00+04:00",
+    "T": 1.6,
+    "V": 6.5,
+    "R": 6.94,
+    "C": 10.0,
+    "score_exact": 51.9,
+    "score": 52,
+    "band": "Elevated"
+  },
+  "after_warning": {
+    "at": "2026-08-27T06:40:00+04:00",
+    "T": 5.58,
+    "V": 6.5,
+    "R": 6.94,
+    "C": 10.0,
+    "score_exact": 70.9,
+    "score": 71,
+    "band": "High",
+    "override_applied": false
+  },
+  "p_hat": {
+    "bloom_before": 0.0726,
+    "heat": 0.0945,
+    "bloom_after": 0.512
+  },
+  "confidence": {
+    "current": 10,
+    "required": 12,
+    "grade": "B",
+    "not_current": [
+      "control: cyber monitoring (never verified)",
+      "channel 1 weather: coverage mute"
+    ]
+  },
+  "drivers": [
+    {
+      "factor": "Algal-bloom warning turned red on coastal channel",
+      "kind": "change",
+      "effect": 19.0
+    },
+    {
+      "factor": "Single seawater intake",
+      "kind": "weakness",
+      "effect": 10.3
+    },
+    {
+      "factor": "No long-lead spares on site",
+      "kind": "weakness",
+      "effect": 4.7
+    }
+  ],
+  "levers_with_warning_active": [
+    {
+      "measure": "Second intake path",
+      "score_after": 60.5
+    },
+    {
+      "measure": "Long-lead spares on site",
+      "score_after": 66.2
+    },
+    {
+      "measure": "Storage raised to three days",
+      "score_after": 67.8
+    },
+    {
+      "measure": "Algal monitoring tested",
+      "score_after": 69.4
+    },
+    {
+      "measure": "First three measures together",
+      "V": 4.55,
+      "R": 2.5,
+      "score_after": 50.2
+    }
+  ],
+  "after_warning_passes_with_first_three_measures": {
+    "score_exact": 36.7,
+    "band": "Guarded"
+  },
+  "trend": {
+    "d7": 19,
+    "d30": 19,
+    "d90": 19
+  },
+  "proposed_checkup": true
+}

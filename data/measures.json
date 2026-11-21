@@ -1,0 +1,134 @@
+[
+  {
+    "measure_id": "M-INTAKE2",
+    "asset_id": "AST-0001",
+    "name_en": "Second intake path",
+    "name_ar": "مسار سحب ثانٍ لمياه البحر",
+    "capex_aed": 400000000,
+    "opex_aed_per_year": 4000000,
+    "life_years": 30,
+    "facility_changes": {
+      "irreplaceability": "redundant",
+      "continuity.n1_redundant": true
+    }
+  },
+  {
+    "measure_id": "M-SPARES",
+    "asset_id": "AST-0001",
+    "name_en": "Long-lead spares on site",
+    "name_ar": "قطع غيار ذات مدة توريد طويلة في الموقع",
+    "capex_aed": 25000000,
+    "opex_aed_per_year": 1000000,
+    "life_years": 15,
+    "facility_changes": {
+      "continuity.spares_on_site": true
+    }
+  },
+  {
+    "measure_id": "M-STORAGE3",
+    "asset_id": "AST-0001",
+    "name_en": "Storage raised to three days",
+    "name_ar": "رفع سعة التخزين إلى ثلاثة أيام",
+    "capex_aed": 300000000,
+    "opex_aed_per_year": 2000000,
+    "life_years": 40,
+    "facility_changes": {
+      "continuity.buffer_hours": 72
+    }
+  },
+  {
+    "measure_id": "M-BACKUPGEN",
+    "asset_id": "AST-0001",
+    "name_en": "On-site backup generation",
+    "name_ar": "توليد احتياطي للكهرباء في الموقع",
+    "capex_aed": 60000000,
+    "opex_aed_per_year": 3000000,
+    "life_years": 20,
+    "facility_changes": {
+      "controls[name=backup power].state": "tested_current"
+    }
+  },
+  {
+    "measure_id": "M-BLOOMEW",
+    "asset_id": "AST-0001",
+    "name_en": "Bloom early warning and pre-treatment upgrade",
+    "name_ar": "إنذار مبكر بازدهار الطحالب وتحديث المعالجة الأولية",
+    "capex_aed": 40000000,
+    "opex_aed_per_year": 2000000,
+    "life_years": 15,
+    "facility_changes": {}
+  },
+  {
+    "measure_id": "M-ALGAE-TEST",
+    "asset_id": "AST-0001",
+    "name_en": "Algal monitoring tested",
+    "name_ar": "اختبار منظومة رصد الطحالب",
+    "capex_aed": 500000,
+    "opex_aed_per_year": 200000,
+    "life_years": 3,
+    "facility_changes": {
+      "controls[name=algal monitoring].state": "tested_current"
+    }
+  },
+  {
+    "measure_id": "M-HOSP-WATER",
+    "asset_id": "AST-0006",
+    "name_en": "Hospital water storage raised to target",
+    "name_ar": "رفع مخزون المياه في المستشفى إلى المستوى المستهدف",
+    "capex_aed": 8000000,
+    "opex_aed_per_year": 300000,
+    "life_years": 25,
+    "facility_changes": {
+      "continuity.buffer_hours": 96
+    }
+  },
+  {
+    "measure_id": "M-SUBA-SPARES",
+    "asset_id": "AST-0002",
+    "name_en": "Spare transformer held for Substation A",
+    "name_ar": "محول احتياطي لمحطة التحويل (أ)",
+    "capex_aed": 18000000,
+    "opex_aed_per_year": 400000,
+    "life_years": 30,
+    "facility_changes": {
+      "continuity.spares_on_site": true
+    }
+  },
+  {
+    "measure_id": "M-PUMP-N1",
+    "asset_id": "AST-0005",
+    "name_en": "Standby pump set at the Central Pump Station",
+    "name_ar": "مجموعة ضخ احتياطية في محطة الضخ المركزية",
+    "capex_aed": 12000000,
+    "opex_aed_per_year": 500000,
+    "life_years": 20,
+    "facility_changes": {
+      "continuity.n1_redundant": true,
+      "irreplaceability": "redundant"
+    }
+  },
+  {
+    "measure_id": "M-DC-CYBER",
+    "asset_id": "AST-0018",
+    "name_en": "Cyber monitoring tested at the Data Centre",
+    "name_ar": "اختبار الرصد السيبراني في مركز البيانات",
+    "capex_aed": 1500000,
+    "opex_aed_per_year": 600000,
+    "life_years": 3,
+    "facility_changes": {
+      "controls[name=cyber monitoring].state": "tested_current"
+    }
+  },
+  {
+    "measure_id": "M-EOC-EXERCISE",
+    "asset_id": "AST-0042",
+    "name_en": "Full-scale exercise at the Emergency Operations Centre",
+    "name_ar": "تمرين شامل في مركز عمليات الطوارئ",
+    "capex_aed": 0,
+    "opex_aed_per_year": 900000,
+    "life_years": 2,
+    "facility_changes": {
+      "continuity.exercise": "full"
+    }
+  }
+]

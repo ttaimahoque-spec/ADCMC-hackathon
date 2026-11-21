@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/channel.schema.json",
+  "title": "channel",
+  "description": "One of the 12 threat channels.",
+  "type": "object",
+  "properties": {
+    "channel_id": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "channel_id",
+    "name_ar",
+    "name_en"
+  ],
+  "additionalProperties": true
+}

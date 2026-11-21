@@ -1,0 +1,6247 @@
+[
+  {
+    "asset_id": "AST-0001",
+    "name_ar": "محطة الساحل لتحلية المياه",
+    "name_en": "Al Sahil Desalination Plant",
+    "sector": "energy_water_wastewater",
+    "category": 1,
+    "location": {
+      "x_km": 3.2,
+      "y_km": 18.5
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Desalination Operations",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 700000,
+    "share_of_city_supply": 0.7,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0002",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0003",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0058",
+        "kind": "supplier"
+      }
+    ],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2026-07-11T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2026-07-11T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-07-11T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-07-11T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "intake screening",
+        "state": "tested_current",
+        "verified_at": "2026-08-10T09:00:00+04:00"
+      },
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-07-31T09:00:00+04:00"
+      },
+      {
+        "name": "algal monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-08-05T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 24,
+      "buffer_target_hours": 72,
+      "rto_hours": 1440,
+      "mtd_hours": 72,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-08-26T07:00:00+04:00",
+        "cadence_days": 7
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-21T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 180
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0002",
+    "name_ar": "محطة التحويل (أ)",
+    "name_en": "Substation A",
+    "sector": "energy_water_wastewater",
+    "category": 1,
+    "location": {
+      "x_km": 5.0,
+      "y_km": 17.0
+    },
+    "owner": "Al Sahil Electricity Company",
+    "operator": "Al Sahil Electricity Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 260000,
+    "share_of_city_supply": 0.22,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0011",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2026-01-29T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 7,
+        "assessed_at": "2026-01-29T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-01-29T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2026-01-29T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2025-12-15T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "present_untested",
+        "verified_at": "2025-11-01T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "absent",
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": null,
+      "buffer_target_hours": 48,
+      "rto_hours": null,
+      "mtd_hours": 72,
+      "spares_on_site": true,
+      "plan_current": null,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-10T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-27T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0003",
+    "name_ar": "محطة التحويل (ب)",
+    "name_en": "Substation B",
+    "sector": "energy_water_wastewater",
+    "category": 1,
+    "location": {
+      "x_km": 4.1,
+      "y_km": 21.3
+    },
+    "owner": "Al Sahil Electricity Company",
+    "operator": "Al Sahil Electricity Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 240000,
+    "share_of_city_supply": 0.2,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0011",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-04-16T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2026-04-16T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-04-16T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-04-16T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2025-11-06T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-05-30T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2025-10-09T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-08-20T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 96,
+      "buffer_target_hours": 24,
+      "rto_hours": 2,
+      "mtd_hours": 48,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-09T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-02-20T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0004",
+    "name_ar": "خزان الساحل الرئيسي",
+    "name_en": "Al Sahil Main Reservoir",
+    "sector": "energy_water_wastewater",
+    "category": 1,
+    "location": {
+      "x_km": 9.8,
+      "y_km": 19.0
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Water Utility",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 650000,
+    "share_of_city_supply": 0.65,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0001",
+        "kind": "water"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2026-06-01T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-06-01T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-06-01T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 6,
+        "assessed_at": "2026-06-01T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2025-12-15T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2026-07-10T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2025-11-10T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 96,
+      "rto_hours": null,
+      "mtd_hours": 48,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-30T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-18T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0005",
+    "name_ar": "محطة الضخ المركزية",
+    "name_en": "Central Pump Station",
+    "sector": "energy_water_wastewater",
+    "category": 2,
+    "location": {
+      "x_km": 14.2,
+      "y_km": 20.1
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Water Utility",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 520000,
+    "share_of_city_supply": 0.52,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0004",
+        "kind": "water"
+      },
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 8,
+        "assessed_at": "2026-01-09T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2026-01-09T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-01-09T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-01-09T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2025-10-20T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2025-09-10T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 24,
+      "buffer_target_hours": 48,
+      "rto_hours": 48,
+      "mtd_hours": 168,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-03T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-01T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0006",
+    "name_ar": "مستشفى الساحل العام",
+    "name_en": "Al Sahil General Hospital",
+    "sector": "health",
+    "category": 1,
+    "location": {
+      "x_km": 16.5,
+      "y_km": 22.4
+    },
+    "owner": "Al Sahil Health Authority",
+    "operator": "Al Sahil Health Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 450000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0005",
+        "kind": "water"
+      },
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0019",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 1,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "water storage",
+        "state": "tested_current",
+        "verified_at": "2026-07-22T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-06-16T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-07-09T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 0,
+      "buffer_target_hours": 96,
+      "rto_hours": 24,
+      "mtd_hours": 168,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-25T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-08T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0007",
+    "name_ar": "مستشفى الساحل الشرقي",
+    "name_en": "Al Sahil East Hospital",
+    "sector": "health",
+    "category": 2,
+    "location": {
+      "x_km": 27.3,
+      "y_km": 19.8
+    },
+    "owner": "Al Sahil Health Authority",
+    "operator": "Al Sahil Health Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 300000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0005",
+        "kind": "water"
+      },
+      {
+        "upstream_asset_id": "AST-0014",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0019",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-01-22T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-01-22T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 4,
+        "assessed_at": "2026-01-22T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-01-22T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2025-10-01T09:00:00+04:00"
+      },
+      {
+        "name": "water storage",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-11-26T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2025-09-23T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 24,
+      "buffer_target_hours": 72,
+      "rto_hours": 240,
+      "mtd_hours": 48,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-03-25T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-10T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0008",
+    "name_ar": "ميناء الساحل",
+    "name_en": "Al Sahil Port",
+    "sector": "transport",
+    "category": 1,
+    "location": {
+      "x_km": 2.1,
+      "y_km": 9.4
+    },
+    "owner": "Al Sahil Ports Company",
+    "operator": "Al Sahil Ports Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": 0.85,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0022",
+        "kind": "road"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2026-06-15T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-06-15T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-06-15T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-06-15T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-08-04T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-02-01T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2025-11-03T09:00:00+04:00"
+      },
+      {
+        "name": "traffic control fallback",
+        "state": "tested_current",
+        "verified_at": "2026-08-11T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": null,
+      "buffer_target_hours": 24,
+      "rto_hours": 48,
+      "mtd_hours": 168,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-19T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-04-29T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0009",
+    "name_ar": "مطار الساحل الدولي",
+    "name_en": "Al Sahil International Airport",
+    "sector": "transport",
+    "category": 1,
+    "location": {
+      "x_km": 31.0,
+      "y_km": 6.5
+    },
+    "owner": "Al Sahil Airports Company",
+    "operator": "Al Sahil Airports Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0014",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0010",
+        "kind": "fuel"
+      },
+      {
+        "upstream_asset_id": "AST-0019",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2025-12-04T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2025-12-04T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 5,
+        "assessed_at": "2025-12-04T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 3,
+        "assessed_at": "2025-12-04T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-03-16T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2025-12-06T09:00:00+04:00"
+      },
+      {
+        "name": "traffic control fallback",
+        "state": "tested_stale",
+        "verified_at": "2025-10-16T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 96,
+      "buffer_target_hours": 96,
+      "rto_hours": 240,
+      "mtd_hours": 4,
+      "spares_on_site": null,
+      "plan_current": null,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-08-05T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-08T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0010",
+    "name_ar": "محطة الوقود الساحلية",
+    "name_en": "Coastal Fuel Terminal",
+    "sector": "energy_water_wastewater",
+    "category": 1,
+    "location": {
+      "x_km": 2.8,
+      "y_km": 12.6
+    },
+    "owner": "Al Sahil Fuel Company",
+    "operator": "Al Sahil Fuel Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": 0.9,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0008",
+        "kind": "supplier"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2025-12-28T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2025-12-28T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 6,
+        "assessed_at": "2025-12-28T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2025-12-28T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-05-27T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-08-15T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2025-12-20T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2025-11-02T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 24,
+      "buffer_target_hours": 48,
+      "rto_hours": 8,
+      "mtd_hours": 12,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-03-24T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0011",
+    "name_ar": "محطة الساحل لتوليد الكهرباء",
+    "name_en": "Al Sahil Power Station",
+    "sector": "energy_water_wastewater",
+    "category": 1,
+    "location": {
+      "x_km": 4.6,
+      "y_km": 26.0
+    },
+    "owner": "Al Sahil Electricity Company",
+    "operator": "Al Sahil Electricity Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 800000,
+    "share_of_city_supply": 0.75,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0017",
+        "kind": "fuel"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-08-02T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-08-02T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2026-08-02T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-05-23T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-05-28T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2026-05-22T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2025-09-10T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 12,
+      "buffer_target_hours": 72,
+      "rto_hours": 240,
+      "mtd_hours": 12,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-27T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0012",
+    "name_ar": "محطة معالجة مياه الصرف الشمالية",
+    "name_en": "North Wastewater Treatment Plant",
+    "sector": "energy_water_wastewater",
+    "category": 2,
+    "location": {
+      "x_km": 8.5,
+      "y_km": 31.2
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Water Utility",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 420000,
+    "share_of_city_supply": 0.45,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-05-06T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-01-17T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2026-01-10T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "absent",
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 72,
+      "buffer_target_hours": 48,
+      "rto_hours": 2,
+      "mtd_hours": 48,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-08-16T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-08-14T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0013",
+    "name_ar": "محطة معالجة مياه الصرف الجنوبية",
+    "name_en": "South Wastewater Treatment Plant",
+    "sector": "energy_water_wastewater",
+    "category": 3,
+    "location": {
+      "x_km": 7.9,
+      "y_km": 5.1
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Water Utility",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 300000,
+    "share_of_city_supply": 0.32,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0014",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-04-30T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2026-04-30T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-04-30T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-04-30T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-02-05T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-06-29T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2026-08-12T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2025-09-30T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 0,
+      "buffer_target_hours": 24,
+      "rto_hours": 48,
+      "mtd_hours": 72,
+      "spares_on_site": null,
+      "plan_current": null,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-10T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-16T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0014",
+    "name_ar": "محطة التحويل (ج) – المنطقة الصناعية",
+    "name_en": "Substation C (Industrial Zone)",
+    "sector": "energy_water_wastewater",
+    "category": 2,
+    "location": {
+      "x_km": 19.4,
+      "y_km": 4.8
+    },
+    "owner": "Al Sahil Electricity Company",
+    "operator": "Al Sahil Electricity Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 90000,
+    "share_of_city_supply": 0.12,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0011",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2026-03-19T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-03-19T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 8,
+        "assessed_at": "2026-03-19T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2026-03-19T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2025-12-18T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-08-17T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2025-12-06T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2025-10-20T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 24,
+      "buffer_target_hours": 96,
+      "rto_hours": 48,
+      "mtd_hours": 24,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-05T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-11T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0015",
+    "name_ar": "محطة التحويل (د) – وسط المدينة",
+    "name_en": "Substation D (City Centre)",
+    "sector": "energy_water_wastewater",
+    "category": 2,
+    "location": {
+      "x_km": 17.8,
+      "y_km": 16.0
+    },
+    "owner": "Al Sahil Electricity Company",
+    "operator": "Al Sahil Electricity Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 210000,
+    "share_of_city_supply": 0.18,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0011",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-06-26T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-04-07T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2025-11-22T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2026-03-10T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2025-09-06T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 96,
+      "buffer_target_hours": 48,
+      "rto_hours": 96,
+      "mtd_hours": 48,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-04T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-08-03T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0016",
+    "name_ar": "برج المياه الغربي",
+    "name_en": "West Water Tower",
+    "sector": "energy_water_wastewater",
+    "category": 3,
+    "location": {
+      "x_km": 11.2,
+      "y_km": 13.4
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Water Utility",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 120000,
+    "share_of_city_supply": 0.1,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0005",
+        "kind": "water"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-03-22T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2026-03-22T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-03-22T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-04-12T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-08-22T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2026-01-09T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2025-08-23T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 96,
+      "buffer_target_hours": 72,
+      "rto_hours": 8,
+      "mtd_hours": 48,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-19T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-23T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0017",
+    "name_ar": "محطة استقبال الغاز",
+    "name_en": "Gas Receiving Station",
+    "sector": "energy_water_wastewater",
+    "category": 2,
+    "location": {
+      "x_km": 6.3,
+      "y_km": 28.7
+    },
+    "owner": "Al Sahil Electricity Company",
+    "operator": "Al Sahil Electricity Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 800000,
+    "share_of_city_supply": 0.6,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2026-05-07T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-05-07T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2026-05-07T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2026-05-07T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-01-16T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-01-26T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "fire suppression",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 96,
+      "buffer_target_hours": 72,
+      "rto_hours": 48,
+      "mtd_hours": 4,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-06T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-19T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0018",
+    "name_ar": "مركز بيانات الساحل",
+    "name_en": "Al Sahil Data Centre",
+    "sector": "communications",
+    "category": 2,
+    "location": {
+      "x_km": 21.6,
+      "y_km": 14.9
+    },
+    "owner": "Al Sahil Digital Government Office",
+    "operator": "Al Sahil Digital Government Office",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0019",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 1,
+        "assessed_at": "2026-04-10T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2026-04-10T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-04-10T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2026-04-10T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-02-07T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2025-09-05T09:00:00+04:00"
+      },
+      {
+        "name": "cooling redundancy",
+        "state": "present_untested",
+        "verified_at": "2025-12-06T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2026-01-17T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 96,
+      "rto_hours": 2,
+      "mtd_hours": 48,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-05T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-04-05T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0019",
+    "name_ar": "مقسم الاتصالات الرئيسي",
+    "name_en": "Main Telecom Exchange",
+    "sector": "communications",
+    "category": 2,
+    "location": {
+      "x_km": 18.9,
+      "y_km": 17.7
+    },
+    "owner": "Al Sahil Telecom Company",
+    "operator": "Al Sahil Telecom Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 600000,
+    "share_of_city_supply": 0.55,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-06-07T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2026-06-07T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2026-06-07T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 8,
+        "assessed_at": "2026-06-07T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-02-21T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-05-06T09:00:00+04:00"
+      },
+      {
+        "name": "cooling redundancy",
+        "state": "tested_current",
+        "verified_at": "2026-06-17T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2025-12-08T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": null,
+      "buffer_target_hours": 24,
+      "rto_hours": 2,
+      "mtd_hours": 12,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-19T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-28T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0020",
+    "name_ar": "برج البث الساحلي",
+    "name_en": "Coastal Radio Mast",
+    "sector": "communications",
+    "category": 3,
+    "location": {
+      "x_km": 3.9,
+      "y_km": 15.2
+    },
+    "owner": "Al Sahil Telecom Company",
+    "operator": "Al Sahil Telecom Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 250000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2025-12-02T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2025-12-02T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2025-12-02T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2025-12-02T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-04-17T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-08-14T09:00:00+04:00"
+      },
+      {
+        "name": "cooling redundancy",
+        "state": "present_untested",
+        "verified_at": "2026-08-15T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2026-04-08T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 12,
+      "buffer_target_hours": 48,
+      "rto_hours": 96,
+      "mtd_hours": 24,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-28T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-26T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0021",
+    "name_ar": "مركز اتصالات الطوارئ",
+    "name_en": "Emergency Communications Hub",
+    "sector": "communications",
+    "category": 1,
+    "location": {
+      "x_km": 20.7,
+      "y_km": 18.8
+    },
+    "owner": "Madinat Al Sahil Emergency Management Office",
+    "operator": "Madinat Al Sahil Emergency Management Office",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0019",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-08-04T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-08-04T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-08-04T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-06-04T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-07-07T09:00:00+04:00"
+      },
+      {
+        "name": "cooling redundancy",
+        "state": "tested_current",
+        "verified_at": "2025-11-05T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2026-06-03T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": null,
+      "buffer_target_hours": 48,
+      "rto_hours": 48,
+      "mtd_hours": 168,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-08-26T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-01-15T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0022",
+    "name_ar": "جسر الساحل",
+    "name_en": "Al Sahil Bridge",
+    "sector": "transport",
+    "category": 2,
+    "location": {
+      "x_km": 12.6,
+      "y_km": 10.3
+    },
+    "owner": "Al Sahil Roads Authority",
+    "operator": "Al Sahil Roads Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 350000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2026-02-05T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-02-05T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-02-05T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 6,
+        "assessed_at": "2026-02-05T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-01-27T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-10-18T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2026-01-22T09:00:00+04:00"
+      },
+      {
+        "name": "traffic control fallback",
+        "state": "tested_current",
+        "verified_at": "2025-11-01T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 12,
+      "buffer_target_hours": 48,
+      "rto_hours": 48,
+      "mtd_hours": 12,
+      "spares_on_site": true,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-27T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-01-03T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0023",
+    "name_ar": "تقاطع الطريق الساحلي",
+    "name_en": "Coastal Highway Interchange",
+    "sector": "transport",
+    "category": 3,
+    "location": {
+      "x_km": 6.8,
+      "y_km": 8.2
+    },
+    "owner": "Al Sahil Roads Authority",
+    "operator": "Al Sahil Roads Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 280000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2026-01-13T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-01-13T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 8,
+        "assessed_at": "2026-01-13T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-01-13T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2025-11-15T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2025-12-18T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2026-03-22T09:00:00+04:00"
+      },
+      {
+        "name": "traffic control fallback",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": null,
+      "buffer_target_hours": 48,
+      "rto_hours": 2,
+      "mtd_hours": 4,
+      "spares_on_site": false,
+      "plan_current": false,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-27T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-07T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0024",
+    "name_ar": "مستودع الحافلات المركزي",
+    "name_en": "Central Bus Depot",
+    "sector": "transport",
+    "category": 4,
+    "location": {
+      "x_km": 22.4,
+      "y_km": 21.1
+    },
+    "owner": "Al Sahil Transport Company",
+    "operator": "Al Sahil Transport Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 150000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2026-04-22T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2025-10-12T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-08-08T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "present_untested",
+        "verified_at": "2025-10-25T09:00:00+04:00"
+      },
+      {
+        "name": "traffic control fallback",
+        "state": "present_untested",
+        "verified_at": "2026-07-29T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 24,
+      "buffer_target_hours": 96,
+      "rto_hours": null,
+      "mtd_hours": 72,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-27T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-08-13T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0025",
+    "name_ar": "مستودع القطار الخفيف",
+    "name_en": "Light Rail Depot",
+    "sector": "transport",
+    "category": 3,
+    "location": {
+      "x_km": 24.9,
+      "y_km": 16.6
+    },
+    "owner": "Al Sahil Transport Company",
+    "operator": "Al Sahil Transport Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 180000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2026-04-28T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2026-04-28T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2026-04-28T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-08-01T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2025-10-07T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2026-03-08T09:00:00+04:00"
+      },
+      {
+        "name": "traffic control fallback",
+        "state": "tested_current",
+        "verified_at": "2026-08-12T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 96,
+      "buffer_target_hours": 24,
+      "rto_hours": 96,
+      "mtd_hours": 168,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-22T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-02-15T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0026",
+    "name_ar": "مستودع الإمدادات الطبية في الساحل",
+    "name_en": "Al Sahil Medical Stores",
+    "sector": "health",
+    "category": 2,
+    "location": {
+      "x_km": 23.8,
+      "y_km": 11.7
+    },
+    "owner": "Al Sahil Health Authority",
+    "operator": "Al Sahil Health Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0009",
+        "kind": "supplier"
+      },
+      {
+        "upstream_asset_id": "AST-0014",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 1,
+        "assessed_at": "2026-01-30T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-01-30T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-01-30T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2026-01-30T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "water storage",
+        "state": "tested_current",
+        "verified_at": "2026-07-06T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-12-22T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2026-05-10T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 24,
+      "buffer_target_hours": 72,
+      "rto_hours": null,
+      "mtd_hours": 48,
+      "spares_on_site": false,
+      "plan_current": false,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-06T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-01-06T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0027",
+    "name_ar": "بنك الدم في الساحل",
+    "name_en": "Al Sahil Blood Bank",
+    "sector": "health",
+    "category": 2,
+    "location": {
+      "x_km": 17.2,
+      "y_km": 23.5
+    },
+    "owner": "Al Sahil Health Authority",
+    "operator": "Al Sahil Health Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-02-16T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-02-16T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 6,
+        "assessed_at": "2026-02-16T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2026-02-16T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "water storage",
+        "state": "tested_current",
+        "verified_at": "2026-06-17T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-06-27T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2025-08-09T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 72,
+      "buffer_target_hours": 96,
+      "rto_hours": 2,
+      "mtd_hours": 4,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-12T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-04-07T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0028",
+    "name_ar": "مركز الرعاية الصحية الأولية الشمالي",
+    "name_en": "North Primary Health Centre",
+    "sector": "health",
+    "category": 4,
+    "location": {
+      "x_km": 13.1,
+      "y_km": 33.4
+    },
+    "owner": "Al Sahil Health Authority",
+    "operator": "Al Sahil Health Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 60000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2025-12-27T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2025-12-27T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2025-12-27T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2025-12-27T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2025-12-17T09:00:00+04:00"
+      },
+      {
+        "name": "water storage",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2025-09-06T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2026-08-15T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": null,
+      "buffer_target_hours": 24,
+      "rto_hours": 96,
+      "mtd_hours": 168,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-20T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-21T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0029",
+    "name_ar": "مركز الرعاية الصحية الأولية الجنوبي",
+    "name_en": "South Primary Health Centre",
+    "sector": "health",
+    "category": 4,
+    "location": {
+      "x_km": 14.6,
+      "y_km": 3.9
+    },
+    "owner": "Al Sahil Health Authority",
+    "operator": "Al Sahil Health Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 55000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 1,
+        "assessed_at": "2026-03-28T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-03-28T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2026-03-28T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-03-28T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "water storage",
+        "state": "tested_current",
+        "verified_at": "2026-08-22T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2026-03-16T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 0,
+      "buffer_target_hours": 72,
+      "rto_hours": 24,
+      "mtd_hours": 168,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-01T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-02-04T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0030",
+    "name_ar": "محطة الإسعاف المركزية",
+    "name_en": "Ambulance Central Station",
+    "sector": "health",
+    "category": 2,
+    "location": {
+      "x_km": 18.3,
+      "y_km": 20.9
+    },
+    "owner": "Al Sahil Health Authority",
+    "operator": "Al Sahil Health Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0010",
+        "kind": "fuel"
+      },
+      {
+        "upstream_asset_id": "AST-0021",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2026-05-12T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-05-12T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-05-12T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-05-12T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-04-22T09:00:00+04:00"
+      },
+      {
+        "name": "water storage",
+        "state": "tested_current",
+        "verified_at": "2025-11-27T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-10-11T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 96,
+      "rto_hours": 240,
+      "mtd_hours": 168,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-18T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-04-13T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0031",
+    "name_ar": "مكب الساحل للنفايات",
+    "name_en": "Al Sahil Landfill",
+    "sector": "waste",
+    "category": 4,
+    "location": {
+      "x_km": 36.2,
+      "y_km": 28.4
+    },
+    "owner": "Al Sahil Waste Management Centre",
+    "operator": "Al Sahil Waste Management Centre",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-03-30T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-03-30T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-03-30T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-03-30T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-03-17T09:00:00+04:00"
+      },
+      {
+        "name": "leachate containment",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-02-13T09:00:00+04:00"
+      },
+      {
+        "name": "gas monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-10-13T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": null,
+      "buffer_target_hours": 24,
+      "rto_hours": 96,
+      "mtd_hours": 12,
+      "spares_on_site": true,
+      "plan_current": false,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-21T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-19T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0032",
+    "name_ar": "محطة نقل النفايات",
+    "name_en": "Waste Transfer Station",
+    "sector": "waste",
+    "category": 4,
+    "location": {
+      "x_km": 26.1,
+      "y_km": 25.7
+    },
+    "owner": "Al Sahil Waste Management Centre",
+    "operator": "Al Sahil Waste Management Centre",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 400000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 1,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 8,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2025-11-27T09:00:00+04:00"
+      },
+      {
+        "name": "leachate containment",
+        "state": "tested_stale",
+        "verified_at": "2025-08-19T09:00:00+04:00"
+      },
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-07-09T09:00:00+04:00"
+      },
+      {
+        "name": "gas monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-08-15T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 48,
+      "buffer_target_hours": 72,
+      "rto_hours": 8,
+      "mtd_hours": 24,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-03-20T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-11T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0033",
+    "name_ar": "محرقة النفايات الطبية",
+    "name_en": "Medical Waste Incinerator",
+    "sector": "waste",
+    "category": 3,
+    "location": {
+      "x_km": 33.5,
+      "y_km": 24.0
+    },
+    "owner": "Al Sahil Waste Management Centre",
+    "operator": "Al Sahil Waste Management Centre",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-07-30T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2026-07-30T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-07-30T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-06-30T09:00:00+04:00"
+      },
+      {
+        "name": "leachate containment",
+        "state": "present_untested",
+        "verified_at": "2026-07-08T09:00:00+04:00"
+      },
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-01-12T09:00:00+04:00"
+      },
+      {
+        "name": "gas monitoring",
+        "state": "tested_current",
+        "verified_at": "2025-11-22T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 6,
+      "buffer_target_hours": 24,
+      "rto_hours": 8,
+      "mtd_hours": 4,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-06T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-07T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0034",
+    "name_ar": "منشأة إعادة التدوير",
+    "name_en": "Recycling Facility",
+    "sector": "waste",
+    "category": 5,
+    "location": {
+      "x_km": 34.8,
+      "y_km": 21.6
+    },
+    "owner": "Al Sahil Waste Management Centre",
+    "operator": "Al Sahil Waste Management Centre",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 300000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 4,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 3,
+        "assessed_at": "2026-03-01T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2026-08-02T09:00:00+04:00"
+      },
+      {
+        "name": "leachate containment",
+        "state": "tested_current",
+        "verified_at": "2026-02-14T09:00:00+04:00"
+      },
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2025-08-14T09:00:00+04:00"
+      },
+      {
+        "name": "gas monitoring",
+        "state": "present_untested",
+        "verified_at": "2025-09-01T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 24,
+      "buffer_target_hours": 96,
+      "rto_hours": null,
+      "mtd_hours": 24,
+      "spares_on_site": null,
+      "plan_current": null,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-08T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-18T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0035",
+    "name_ar": "دار المقاصة في الساحل",
+    "name_en": "Al Sahil Clearing House",
+    "sector": "financial_services",
+    "category": 2,
+    "location": {
+      "x_km": 19.9,
+      "y_km": 15.6
+    },
+    "owner": "Al Sahil Financial Services Authority",
+    "operator": "Al Sahil Financial Services Authority",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0018",
+        "kind": "telecom"
+      },
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-04-08T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 8,
+        "assessed_at": "2026-04-08T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-04-08T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2026-04-08T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2025-08-26T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-06-16T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "tested_current",
+        "verified_at": "2025-09-22T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "absent",
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 96,
+      "buffer_target_hours": 96,
+      "rto_hours": 240,
+      "mtd_hours": 12,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-29T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-04-08T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0036",
+    "name_ar": "مركز العمليات المصرفية الرئيسي",
+    "name_en": "Main Bank Operations Centre",
+    "sector": "financial_services",
+    "category": 3,
+    "location": {
+      "x_km": 20.4,
+      "y_km": 13.2
+    },
+    "owner": "Al Sahil Commercial Bank",
+    "operator": "Al Sahil Commercial Bank",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 400000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0018",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2026-04-19T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 7,
+        "assessed_at": "2026-04-19T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2026-04-19T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-04-19T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2025-12-02T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2025-10-04T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "present_untested",
+        "verified_at": "2025-09-12T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-03-18T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 12,
+      "buffer_target_hours": 24,
+      "rto_hours": 24,
+      "mtd_hours": 12,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-27T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0037",
+    "name_ar": "مركز النقد للصرافات الآلية",
+    "name_en": "ATM Cash Centre",
+    "sector": "financial_services",
+    "category": 4,
+    "location": {
+      "x_km": 23.1,
+      "y_km": 13.9
+    },
+    "owner": "Al Sahil Commercial Bank",
+    "operator": "Al Sahil Commercial Bank",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 300000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-07-13T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-07-13T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-07-13T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2026-07-13T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2025-11-17T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-03-02T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "tested_stale",
+        "verified_at": "2026-03-29T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-05-15T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 12,
+      "buffer_target_hours": 96,
+      "rto_hours": 2,
+      "mtd_hours": 72,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-28T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-02T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0038",
+    "name_ar": "مركز مطالبات التأمين",
+    "name_en": "Insurance Claims Centre",
+    "sector": "financial_services",
+    "category": 5,
+    "location": {
+      "x_km": 21.0,
+      "y_km": 12.1
+    },
+    "owner": "Al Sahil Insurance Company",
+    "operator": "Al Sahil Insurance Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 200000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-04-29T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-04-29T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-04-29T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-04-29T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-04-16T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2025-10-12T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "tested_stale",
+        "verified_at": "2026-03-13T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2025-09-06T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 24,
+      "buffer_target_hours": 24,
+      "rto_hours": null,
+      "mtd_hours": 48,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-04T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-07T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0039",
+    "name_ar": "القيادة العامة للشرطة",
+    "name_en": "Police Headquarters",
+    "sector": "security_and_safety",
+    "category": 1,
+    "location": {
+      "x_km": 18.0,
+      "y_km": 19.3
+    },
+    "owner": "Al Sahil Police",
+    "operator": "Al Sahil Police",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0021",
+        "kind": "telecom"
+      },
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2025-12-11T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2025-12-11T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2025-12-11T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2025-12-11T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2025-10-15T09:00:00+04:00"
+      },
+      {
+        "name": "radio fallback",
+        "state": "present_untested",
+        "verified_at": "2025-11-02T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "fuel reserve",
+        "state": "absent",
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 6,
+      "buffer_target_hours": 72,
+      "rto_hours": 8,
+      "mtd_hours": 4,
+      "spares_on_site": false,
+      "plan_current": false,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-03T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-09T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0040",
+    "name_ar": "مركز الدفاع المدني الرئيسي",
+    "name_en": "Civil Defence Central Station",
+    "sector": "security_and_safety",
+    "category": 1,
+    "location": {
+      "x_km": 16.9,
+      "y_km": 17.5
+    },
+    "owner": "Al Sahil Civil Defence",
+    "operator": "Al Sahil Civil Defence",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0021",
+        "kind": "telecom"
+      },
+      {
+        "upstream_asset_id": "AST-0005",
+        "kind": "water"
+      }
+    ],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-01-12T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 5,
+        "assessed_at": "2026-01-12T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 5,
+        "assessed_at": "2026-01-12T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-01-12T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2025-11-15T09:00:00+04:00"
+      },
+      {
+        "name": "radio fallback",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-01-29T09:00:00+04:00"
+      },
+      {
+        "name": "fuel reserve",
+        "state": "tested_current",
+        "verified_at": "2025-09-20T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 0,
+      "buffer_target_hours": 96,
+      "rto_hours": 48,
+      "mtd_hours": 168,
+      "spares_on_site": true,
+      "plan_current": false,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-22T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-04T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0041",
+    "name_ar": "محطة خفر السواحل",
+    "name_en": "Coast Guard Station",
+    "sector": "security_and_safety",
+    "category": 2,
+    "location": {
+      "x_km": 1.6,
+      "y_km": 13.8
+    },
+    "owner": "Al Sahil Coast Guard",
+    "operator": "Al Sahil Coast Guard",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-04-20T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-04-20T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-04-20T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-04-25T09:00:00+04:00"
+      },
+      {
+        "name": "radio fallback",
+        "state": "tested_stale",
+        "verified_at": "2026-01-18T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-02-03T09:00:00+04:00"
+      },
+      {
+        "name": "fuel reserve",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": null,
+      "buffer_target_hours": 24,
+      "rto_hours": 96,
+      "mtd_hours": 72,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-05T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-11T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0042",
+    "name_ar": "مركز عمليات الطوارئ",
+    "name_en": "Emergency Operations Centre",
+    "sector": "government_facilities",
+    "category": 1,
+    "location": {
+      "x_km": 19.6,
+      "y_km": 19.9
+    },
+    "owner": "Madinat Al Sahil Emergency Management Office",
+    "operator": "Madinat Al Sahil Emergency Management Office",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0021",
+        "kind": "telecom"
+      },
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0018",
+        "kind": "telecom"
+      }
+    ],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 3,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-03-08T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "tested_current",
+        "verified_at": "2026-07-27T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2026-02-21T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 48,
+      "buffer_target_hours": 48,
+      "rto_hours": 24,
+      "mtd_hours": 24,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-28T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0043",
+    "name_ar": "مركز الإطفاء الشمالي",
+    "name_en": "Fire Station North",
+    "sector": "security_and_safety",
+    "category": 3,
+    "location": {
+      "x_km": 12.0,
+      "y_km": 29.6
+    },
+    "owner": "Al Sahil Civil Defence",
+    "operator": "Al Sahil Civil Defence",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 350000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-02-13T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-02-13T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-02-13T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 8,
+        "assessed_at": "2026-02-13T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-03-29T09:00:00+04:00"
+      },
+      {
+        "name": "radio fallback",
+        "state": "present_untested",
+        "verified_at": "2026-07-22T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "fuel reserve",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 96,
+      "buffer_target_hours": 48,
+      "rto_hours": 48,
+      "mtd_hours": 168,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-10T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-23T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0044",
+    "name_ar": "مركز الإطفاء الجنوبي",
+    "name_en": "Fire Station South",
+    "sector": "security_and_safety",
+    "category": 3,
+    "location": {
+      "x_km": 13.7,
+      "y_km": 6.4
+    },
+    "owner": "Al Sahil Civil Defence",
+    "operator": "Al Sahil Civil Defence",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 330000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2025-11-30T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 7,
+        "assessed_at": "2025-11-30T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 6,
+        "assessed_at": "2025-11-30T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 6,
+        "assessed_at": "2025-11-30T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-04-04T09:00:00+04:00"
+      },
+      {
+        "name": "radio fallback",
+        "state": "present_untested",
+        "verified_at": "2026-06-09T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2025-12-17T09:00:00+04:00"
+      },
+      {
+        "name": "fuel reserve",
+        "state": "present_untested",
+        "verified_at": "2026-06-18T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 72,
+      "buffer_target_hours": 48,
+      "rto_hours": 240,
+      "mtd_hours": 12,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-11T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-26T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0045",
+    "name_ar": "السوق المركزي للأغذية",
+    "name_en": "Central Food Market",
+    "sector": "food",
+    "category": 3,
+    "location": {
+      "x_km": 15.9,
+      "y_km": 14.2
+    },
+    "owner": "Al Sahil Municipality",
+    "operator": "Al Sahil Municipality",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 500000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0047",
+        "kind": "supplier"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2025-11-19T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2025-11-19T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 4,
+        "assessed_at": "2025-11-19T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2025-11-19T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-04-10T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "pest and contamination control",
+        "state": "tested_current",
+        "verified_at": "2026-05-13T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2025-11-05T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 48,
+      "rto_hours": 48,
+      "mtd_hours": 12,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-19T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-26T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0046",
+    "name_ar": "صوامع الحبوب",
+    "name_en": "Grain Silos",
+    "sector": "food",
+    "category": 2,
+    "location": {
+      "x_km": 3.6,
+      "y_km": 10.8
+    },
+    "owner": "Al Sahil Food Security Office",
+    "operator": "Al Sahil Food Security Office",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": 0.8,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0008",
+        "kind": "supplier"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2026-07-24T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-07-24T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 8,
+        "assessed_at": "2026-07-24T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-01-13T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-05-12T09:00:00+04:00"
+      },
+      {
+        "name": "pest and contamination control",
+        "state": "tested_current",
+        "verified_at": "2026-04-13T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2025-09-18T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 0,
+      "buffer_target_hours": 72,
+      "rto_hours": 48,
+      "mtd_hours": 168,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-02T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-19T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0047",
+    "name_ar": "مركز التخزين المبرد",
+    "name_en": "Cold Storage Hub",
+    "sector": "food",
+    "category": 2,
+    "location": {
+      "x_km": 24.2,
+      "y_km": 9.6
+    },
+    "owner": "Al Sahil Food Security Office",
+    "operator": "Al Sahil Food Security Office",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": 0.5,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0014",
+        "kind": "power"
+      },
+      {
+        "upstream_asset_id": "AST-0008",
+        "kind": "supplier"
+      }
+    ],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2026-02-06T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-02-06T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 8,
+        "assessed_at": "2026-02-06T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2026-02-06T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-06-17T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-05-03T09:00:00+04:00"
+      },
+      {
+        "name": "pest and contamination control",
+        "state": "tested_stale",
+        "verified_at": "2026-03-25T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2025-10-13T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 96,
+      "buffer_target_hours": 24,
+      "rto_hours": null,
+      "mtd_hours": 12,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-18T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-14T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0048",
+    "name_ar": "مصنع معالجة الألبان",
+    "name_en": "Dairy Processing Plant",
+    "sector": "food",
+    "category": 4,
+    "location": {
+      "x_km": 28.7,
+      "y_km": 12.8
+    },
+    "owner": "Al Sahil Dairy Company",
+    "operator": "Al Sahil Dairy Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 600000,
+    "share_of_city_supply": 0.4,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2026-08-15T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 8,
+        "assessed_at": "2026-08-15T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 8,
+        "assessed_at": "2026-08-15T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2026-08-15T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2025-11-01T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-04-09T09:00:00+04:00"
+      },
+      {
+        "name": "pest and contamination control",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "fire suppression",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 48,
+      "rto_hours": 96,
+      "mtd_hours": 4,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-14T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-02-19T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0049",
+    "name_ar": "مصنع المياه المعبأة",
+    "name_en": "Bottled Water Factory",
+    "sector": "food",
+    "category": 3,
+    "location": {
+      "x_km": 26.4,
+      "y_km": 7.3
+    },
+    "owner": "Al Sahil Beverages Company",
+    "operator": "Al Sahil Beverages Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": 0.15,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0001",
+        "kind": "water"
+      }
+    ],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2026-07-02T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2026-07-02T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 8,
+        "assessed_at": "2026-07-02T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2026-07-02T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-03-25T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-08-19T09:00:00+04:00"
+      },
+      {
+        "name": "pest and contamination control",
+        "state": "tested_current",
+        "verified_at": "2026-07-16T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-05-01T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 24,
+      "buffer_target_hours": 96,
+      "rto_hours": 96,
+      "mtd_hours": 4,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-08T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-14T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0050",
+    "name_ar": "سوق السمك ومرسى الصيد",
+    "name_en": "Fish Market and Landing Site",
+    "sector": "food",
+    "category": 5,
+    "location": {
+      "x_km": 1.9,
+      "y_km": 16.4
+    },
+    "owner": "Al Sahil Municipality",
+    "operator": "Al Sahil Municipality",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 200000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2025-11-23T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2025-11-23T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2025-11-23T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2025-11-23T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-05-13T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-06-11T09:00:00+04:00"
+      },
+      {
+        "name": "pest and contamination control",
+        "state": "tested_stale",
+        "verified_at": "2026-06-27T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-08-20T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 72,
+      "buffer_target_hours": 24,
+      "rto_hours": 96,
+      "mtd_hours": 12,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-28T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0051",
+    "name_ar": "مبنى البلدية",
+    "name_en": "City Hall",
+    "sector": "government_facilities",
+    "category": 2,
+    "location": {
+      "x_km": 17.5,
+      "y_km": 18.1
+    },
+    "owner": "Al Sahil Municipality",
+    "operator": "Al Sahil Municipality",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-01-31T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2026-01-31T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2026-01-31T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-01-31T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-05-16T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-07-03T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "present_untested",
+        "verified_at": "2025-09-24T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-03-29T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 72,
+      "rto_hours": null,
+      "mtd_hours": 48,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-17T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-19T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0052",
+    "name_ar": "مجمع المحاكم",
+    "name_en": "Courts Complex",
+    "sector": "government_facilities",
+    "category": 4,
+    "location": {
+      "x_km": 18.7,
+      "y_km": 16.3
+    },
+    "owner": "Al Sahil Judicial Department",
+    "operator": "Al Sahil Judicial Department",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-03-05T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 8,
+        "assessed_at": "2026-03-05T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 8,
+        "assessed_at": "2026-03-05T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-03-05T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2025-11-17T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "alternate site",
+        "state": "tested_current",
+        "verified_at": "2026-01-19T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-01-16T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 0,
+      "buffer_target_hours": 72,
+      "rto_hours": 48,
+      "mtd_hours": 48,
+      "spares_on_site": null,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-05-25T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-30T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0053",
+    "name_ar": "مركز السجل المدني",
+    "name_en": "Civil Registry Centre",
+    "sector": "government_facilities",
+    "category": 5,
+    "location": {
+      "x_km": 16.2,
+      "y_km": 15.0
+    },
+    "owner": "Al Sahil Municipality",
+    "operator": "Al Sahil Municipality",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-01-01T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 8,
+        "assessed_at": "2026-01-01T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2026-01-01T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-01-01T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2025-12-03T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "present_untested",
+        "verified_at": "2026-04-27T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_stale",
+        "verified_at": "2026-08-25T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 0,
+      "buffer_target_hours": 96,
+      "rto_hours": 2,
+      "mtd_hours": 72,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-20T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-02T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0054",
+    "name_ar": "مركز الخدمات الحكومية",
+    "name_en": "Government Services Centre",
+    "sector": "government_facilities",
+    "category": 4,
+    "location": {
+      "x_km": 22.0,
+      "y_km": 19.6
+    },
+    "owner": "Al Sahil Municipality",
+    "operator": "Al Sahil Municipality",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 400000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2026-04-14T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-04-14T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 8,
+        "assessed_at": "2026-04-14T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2026-04-14T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-08-17T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-08-01T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "tested_stale",
+        "verified_at": "2026-01-06T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2025-10-19T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 96,
+      "buffer_target_hours": 96,
+      "rto_hours": 48,
+      "mtd_hours": 12,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-24T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0055",
+    "name_ar": "الصالة الرياضية في الساحل (مأوى طوارئ)",
+    "name_en": "Al Sahil Sports Hall (Emergency Shelter)",
+    "sector": "government_facilities",
+    "category": 3,
+    "location": {
+      "x_km": 25.5,
+      "y_km": 23.2
+    },
+    "owner": "Al Sahil Municipality",
+    "operator": "Al Sahil Municipality",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 8000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0005",
+        "kind": "water"
+      }
+    ],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 6,
+        "assessed_at": "2026-02-16T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2026-02-16T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-02-16T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-03-23T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-06-10T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "present_untested",
+        "verified_at": "2025-11-11T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-05-24T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 24,
+      "rto_hours": 2,
+      "mtd_hours": 72,
+      "spares_on_site": false,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-15T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-02-15T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0056",
+    "name_ar": "مجمع المدارس الشمالي (مأوى طوارئ)",
+    "name_en": "Northern Schools Complex (Emergency Shelter)",
+    "sector": "government_facilities",
+    "category": 4,
+    "location": {
+      "x_km": 11.4,
+      "y_km": 32.0
+    },
+    "owner": "Al Sahil Education Office",
+    "operator": "Al Sahil Education Office",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 6000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-08-20T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 8,
+        "assessed_at": "2026-08-20T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2026-08-20T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 7,
+        "assessed_at": "2026-08-20T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-05-14T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-07-27T09:00:00+04:00"
+      },
+      {
+        "name": "alternate site",
+        "state": "tested_stale",
+        "verified_at": "2026-08-14T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 12,
+      "buffer_target_hours": 72,
+      "rto_hours": 8,
+      "mtd_hours": 12,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-07-21T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-03-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0057",
+    "name_ar": "مختبر جودة المياه",
+    "name_en": "Water Quality Laboratory",
+    "sector": "energy_water_wastewater",
+    "category": 3,
+    "location": {
+      "x_km": 10.6,
+      "y_km": 20.7
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Water Utility",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 700000,
+    "share_of_city_supply": null,
+    "dependencies": [
+      {
+        "upstream_asset_id": "AST-0015",
+        "kind": "power"
+      }
+    ],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 8,
+        "assessed_at": "2026-04-14T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-04-14T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 6,
+        "assessed_at": "2026-04-14T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-06-22T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-03-28T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2026-04-24T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-06-07T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 48,
+      "rto_hours": 240,
+      "mtd_hours": 12,
+      "spares_on_site": false,
+      "plan_current": false,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-04-10T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-05-08T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0058",
+    "name_ar": "مخزن الكلور",
+    "name_en": "Chlorine Store",
+    "sector": "energy_water_wastewater",
+    "category": 3,
+    "location": {
+      "x_km": 5.7,
+      "y_km": 19.9
+    },
+    "owner": "Al Sahil Water Utility",
+    "operator": "Al Sahil Water Utility",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 700000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2025-12-13T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2025-12-13T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2025-12-13T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 3,
+        "assessed_at": "2025-12-13T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-02-28T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-07-21T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2025-09-14T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "absent",
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 48,
+      "buffer_target_hours": 72,
+      "rto_hours": null,
+      "mtd_hours": 48,
+      "spares_on_site": null,
+      "plan_current": false,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-12T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-02T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0059",
+    "name_ar": "مجمع الساحل للطاقة الشمسية",
+    "name_en": "Al Sahil Solar Park",
+    "sector": "energy_water_wastewater",
+    "category": 3,
+    "location": {
+      "x_km": 38.1,
+      "y_km": 14.0
+    },
+    "owner": "Al Sahil Electricity Company",
+    "operator": "Al Sahil Electricity Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 150000,
+    "share_of_city_supply": 0.12,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 2,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 7,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 4,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-05-18T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-02-08T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-01-09T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2025-10-03T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 96,
+      "buffer_target_hours": 96,
+      "rto_hours": null,
+      "mtd_hours": 168,
+      "spares_on_site": null,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-27T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-07-24T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-0060",
+    "name_ar": "مستودع الاحتياطي الاستراتيجي للوقود",
+    "name_en": "Strategic Fuel Reserve Depot",
+    "sector": "energy_water_wastewater",
+    "category": 2,
+    "location": {
+      "x_km": 29.9,
+      "y_km": 30.6
+    },
+    "owner": "Al Sahil Fuel Company",
+    "operator": "Al Sahil Fuel Company",
+    "status": "operating",
+    "status_updated_at": "2026-08-20T08:00:00+04:00",
+    "people_served": 1000000,
+    "share_of_city_supply": 0.3,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 8,
+        "assessed_at": "2026-03-04T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 1,
+        "assessed_at": "2026-03-04T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 2,
+        "assessed_at": "2026-03-04T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 3,
+        "assessed_at": "2026-03-04T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2025-11-24T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-01-29T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "present_untested",
+        "verified_at": "2025-08-16T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "absent",
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 48,
+      "buffer_target_hours": 24,
+      "rto_hours": null,
+      "mtd_hours": 168,
+      "spares_on_site": true,
+      "plan_current": false,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator daily report",
+        "last_verified": "2026-06-29T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return (BCM)",
+        "last_verified": "2026-06-14T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2026-08-10T09:00:00+04:00",
+        "cadence_days": 365
+      },
+      "people_served": {
+        "source": "municipal service register",
+        "last_verified": "2026-06-11T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  }
+]

@@ -1,0 +1,304 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/facility.schema.json",
+  "title": "facility",
+  "description": "A critical facility in the shared city dataset. null means unknown.",
+  "type": "object",
+  "properties": {
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-\\d{4}$"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "sector": {
+      "enum": [
+        "transport",
+        "health",
+        "energy_water_wastewater",
+        "communications",
+        "waste",
+        "financial_services",
+        "security_and_safety",
+        "food",
+        "government_facilities"
+      ]
+    },
+    "category": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "x_km": {
+          "type": "number"
+        },
+        "y_km": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "x_km",
+        "y_km"
+      ],
+      "additionalProperties": true
+    },
+    "owner": {
+      "type": "string"
+    },
+    "operator": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "operating",
+        "degraded",
+        "shut_down",
+        "unknown"
+      ]
+    },
+    "status_updated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+    },
+    "people_served": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "share_of_city_supply": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "upstream_asset_id": {
+            "type": "string",
+            "pattern": "^AST-\\d{4}$"
+          },
+          "kind": {
+            "enum": [
+              "power",
+              "water",
+              "telecom",
+              "fuel",
+              "road",
+              "supplier"
+            ]
+          }
+        },
+        "required": [
+          "upstream_asset_id",
+          "kind"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "irreplaceability": {
+      "enum": [
+        "single",
+        "partial",
+        "redundant",
+        null
+      ]
+    },
+    "audit_domains": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "domain": {
+            "type": "string"
+          },
+          "score": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 10
+          },
+          "assessed_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+          }
+        },
+        "required": [
+          "domain",
+          "score",
+          "assessed_at"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "controls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "state": {
+            "enum": [
+              "absent",
+              "present_untested",
+              "tested_stale",
+              "tested_current",
+              null
+            ]
+          },
+          "verified_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+          }
+        },
+        "required": [
+          "name",
+          "state",
+          "verified_at"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "continuity": {
+      "type": "object",
+      "properties": {
+        "n1_redundant": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "buffer_hours": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "buffer_target_hours": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "rto_hours": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "mtd_hours": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "spares_on_site": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "plan_current": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "exercise": {
+          "enum": [
+            "full",
+            "tabletop",
+            "none",
+            null
+          ]
+        }
+      },
+      "required": [
+        "n1_redundant",
+        "buffer_hours",
+        "buffer_target_hours",
+        "rto_hours",
+        "mtd_hours",
+        "spares_on_site",
+        "plan_current",
+        "exercise"
+      ],
+      "additionalProperties": true
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "last_verified": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+          },
+          "cadence_days": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "source",
+          "last_verified",
+          "cadence_days"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "asset_id",
+    "name_ar",
+    "name_en",
+    "sector",
+    "category",
+    "location",
+    "owner",
+    "operator",
+    "status",
+    "status_updated_at",
+    "people_served",
+    "share_of_city_supply",
+    "dependencies",
+    "irreplaceability",
+    "audit_domains",
+    "controls",
+    "continuity",
+    "provenance"
+  ],
+  "additionalProperties": true
+}

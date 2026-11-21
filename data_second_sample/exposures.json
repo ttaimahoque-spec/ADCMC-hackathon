@@ -1,0 +1,1154 @@
+[
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9001",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Wholesale Market 1.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9002",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Police Station 2.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 2,
+    "exposed": true,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9003",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Qasr Telecom Exchange 3.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9004",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Food Warehouse 4.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9005",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa District Cooling Plant 5.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9006",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Rawda Municipal Office 6.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9007",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Marsa Water Reservoir 7.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 7,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9008",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Food Warehouse 8.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 6,
+    "exposed": true,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 9,
+    "exposed": true,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9009",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Jabal Water Pumping Station 9.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9010",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Ghaf Road Interchange 10.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 3,
+    "exposed": true,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 5,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 10,
+    "exposed": true,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9011",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Nakheel Traffic Control Room 11.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 1,
+    "exposed": true,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 2,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 3,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 4,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 5,
+    "exposed": true,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 6,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 7,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 8,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 9,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 10,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 11,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  },
+  {
+    "asset_id": "AST-9012",
+    "channel_id": 12,
+    "exposed": false,
+    "evidence": "Exposure review of Al Sidr School Shelter 12.",
+    "signed_by": "Hessa Al Dhaheri",
+    "signed_at": "2027-01-04T10:00:00+04:00"
+  }
+]

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+var/
+*.sqlite3*
+.DS_Store
+test-results/
+playwright-report/

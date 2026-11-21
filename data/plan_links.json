@@ -1,0 +1,260 @@
+[
+  {
+    "plan_id": "PLN-WTR-001",
+    "plan_version": "0.9-review",
+    "section_ref": "3.2",
+    "asset_id": "AST-0001",
+    "assumption": "During an intake closure, the second intake carries the full load",
+    "claim": {
+      "field": "sub_asset:SA-INTAKE.units",
+      "value": 2
+    },
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-WTR-001",
+    "plan_version": "0.9-review",
+    "section_ref": "1.4",
+    "asset_id": "AST-0001",
+    "assumption": "Treated-water storage of 450,000 m3 equals 24 hours of demand",
+    "claim": {
+      "field": "facility:AST-0001.continuity.buffer_hours",
+      "value": 24
+    },
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-WTR-001",
+    "plan_version": "0.9-review",
+    "section_ref": "3.3",
+    "asset_id": "AST-0001",
+    "assumption": "The plant has 5 reverse-osmosis trains to run at maximum output",
+    "claim": {
+      "field": "sub_asset:SA-RO.units",
+      "value": 5
+    },
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-WTR-001",
+    "plan_version": "0.9-review",
+    "section_ref": "1.4",
+    "asset_id": "AST-0002",
+    "assumption": "Power feed A from Substation A stays available",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-WTR-001",
+    "plan_version": "0.9-review",
+    "section_ref": "1.4",
+    "asset_id": "AST-0003",
+    "assumption": "Power feed B from Substation B stays available",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-WTR-001",
+    "plan_version": "0.9-review",
+    "section_ref": "3.3",
+    "asset_id": "AST-0006",
+    "assumption": "Hospital receives priority tanker supply from H+6",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-WTR-001",
+    "plan_version": "0.9-review",
+    "section_ref": "3.3",
+    "asset_id": "AST-0007",
+    "assumption": "Hospital receives priority tanker supply from H+6",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-HEAT-002",
+    "plan_version": "1.2",
+    "section_ref": "1.2",
+    "asset_id": "AST-0001",
+    "assumption": "All reverse-osmosis trains run to meet up to 10% higher demand",
+    "claim": {
+      "field": "sub_asset:SA-RO.units",
+      "value": 5
+    },
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-HEAT-002",
+    "plan_version": "1.2",
+    "section_ref": "1.2",
+    "asset_id": "AST-0011",
+    "assumption": "Generation covers peak demand up to 49 degrees C",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-HEAT-002",
+    "plan_version": "1.2",
+    "section_ref": "3.5",
+    "asset_id": "AST-0002",
+    "assumption": "No rotating cuts to hospitals and cooling centres fed from Substation A",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-HEAT-002",
+    "plan_version": "1.2",
+    "section_ref": "3.5",
+    "asset_id": "AST-0003",
+    "assumption": "No rotating cuts to hospitals and cooling centres fed from Substation B",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-HEAT-002",
+    "plan_version": "1.2",
+    "section_ref": "4.2",
+    "asset_id": "AST-0006",
+    "assumption": "Hospital opens its share of 60 surge beds within 12 hours of Level 3",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-HEAT-002",
+    "plan_version": "1.2",
+    "section_ref": "4.2",
+    "asset_id": "AST-0007",
+    "assumption": "Hospital opens its share of 60 surge beds within 12 hours of Level 3",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-HLT-004",
+    "plan_version": "2.0",
+    "section_ref": "1.1",
+    "asset_id": "AST-0006",
+    "assumption": "Hospital receives surge patients",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-HLT-004",
+    "plan_version": "2.0",
+    "section_ref": "1.1",
+    "asset_id": "AST-0007",
+    "assumption": "Hospital receives surge patients",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-HLT-004",
+    "plan_version": "2.0",
+    "section_ref": "1.4",
+    "asset_id": "AST-0001",
+    "assumption": "The city holds about 24 hours of treated water at the plant",
+    "claim": {
+      "field": "facility:AST-0001.continuity.buffer_hours",
+      "value": 24
+    },
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-HLT-004",
+    "plan_version": "2.0",
+    "section_ref": "4.2",
+    "asset_id": "AST-0002",
+    "assumption": "Priority restoration of hospital feeders",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-HLT-004",
+    "plan_version": "2.0",
+    "section_ref": "4.2",
+    "asset_id": "AST-0003",
+    "assumption": "Priority restoration of hospital feeders",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-FLD-003",
+    "plan_version": "1.1",
+    "section_ref": "2",
+    "asset_id": "AST-0008",
+    "assumption": "Port moves vessels to safe berths before the surge",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-FLD-003",
+    "plan_version": "1.1",
+    "section_ref": "1.2",
+    "asset_id": "AST-0002",
+    "assumption": "Load can move from Substation A to Substation B if A floods",
+    "claim": null,
+    "reliance": "medium"
+  },
+  {
+    "plan_id": "PLN-PWR-005",
+    "plan_version": "1.0",
+    "section_ref": "1.4",
+    "asset_id": "AST-0002",
+    "assumption": "Substation A provides one of the desalination plant's two feeds",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-PWR-005",
+    "plan_version": "1.0",
+    "section_ref": "1.4",
+    "asset_id": "AST-0003",
+    "assumption": "Substation B provides one of the desalination plant's two feeds",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-PWR-005",
+    "plan_version": "1.0",
+    "section_ref": "1.1",
+    "asset_id": "AST-0011",
+    "assumption": "Fault at the power station is the main cause of the outage",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-PWR-005",
+    "plan_version": "1.0",
+    "section_ref": "1.1",
+    "asset_id": "AST-0002",
+    "assumption": "Substation A fault can cause the outage",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-PWR-005",
+    "plan_version": "1.0",
+    "section_ref": "1.1",
+    "asset_id": "AST-0003",
+    "assumption": "Substation B fault can cause the outage",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-PWR-005",
+    "plan_version": "1.0",
+    "section_ref": "1.2",
+    "asset_id": "AST-0005",
+    "assumption": "Pump station needs restored supply or generators",
+    "claim": null,
+    "reliance": "high"
+  },
+  {
+    "plan_id": "PLN-PWR-005",
+    "plan_version": "1.0",
+    "section_ref": "6.1",
+    "asset_id": "AST-0010",
+    "assumption": "Terminal supplies generator diesel",
+    "claim": null,
+    "reliance": "medium"
+  }
+]

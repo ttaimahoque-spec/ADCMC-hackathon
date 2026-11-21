@@ -1,0 +1,2287 @@
+{
+  "note": "Reference pillars, score, band, override and confidence for all 60 facilities at two moments, computed with the reading rules in the README. Use it to check your engine beyond the plant.",
+  "evening_before": [
+    {
+      "asset_id": "AST-0001",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 52,
+      "score_exact": 51.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.6,
+        "V": 6.5,
+        "R": 6.94,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0002",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 74,
+      "score_exact": 74.5,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 6.17,
+        "R": 8.33,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0003",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 59,
+      "score_exact": 58.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.0,
+        "R": 5.0,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0004",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 66,
+      "score_exact": 66.1,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.25,
+        "R": 7.5,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0005",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 67,
+      "score_exact": 67.0,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 7.2,
+        "R": 5.83,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0006",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 51,
+      "score_exact": 51.0,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.3,
+        "R": 5.83,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0007",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 43,
+      "score_exact": 43.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.55,
+        "R": 3.61,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0008",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 47,
+      "score_exact": 46.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.66,
+        "V": 3.85,
+        "R": 7.5,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0009",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 61,
+      "score_exact": 60.7,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.13,
+        "V": 5.2,
+        "R": 8.33,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 13,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0010",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 57,
+      "score_exact": 56.6,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.34,
+        "V": 3.25,
+        "R": 5.0,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 13,
+        "required": 16
+      }
+    },
+    {
+      "asset_id": "AST-0011",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 74,
+      "score_exact": 74.1,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.67,
+        "V": 6.25,
+        "R": 7.22,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0012",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 43,
+      "score_exact": 43.2,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.35,
+        "R": 1.67,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0013",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 60,
+      "score_exact": 59.6,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.22,
+        "R": 8.33,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0014",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 59,
+      "score_exact": 58.7,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 3.98,
+        "R": 6.25,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0015",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 64,
+      "score_exact": 63.7,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 4.8,
+        "R": 6.67,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0016",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 47,
+      "score_exact": 47.2,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.15,
+        "R": 3.33,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0017",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 55,
+      "score_exact": 55.0,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.34,
+        "V": 3.6,
+        "R": 5.0,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0018",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 67,
+      "score_exact": 67.2,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 5.45,
+        "R": 5.83,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0019",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 62,
+      "score_exact": 61.6,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 4.83,
+        "R": 5.83,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0020",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 66,
+      "score_exact": 66.2,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.67,
+        "V": 6.08,
+        "R": 7.92,
+        "C": 6
+      },
+      "confidence": "A",
+      "confidence_inputs": {
+        "current": 14,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0021",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 60,
+      "score_exact": 59.9,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 4.83,
+        "R": 4.17,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0022",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 40,
+      "score_exact": 40.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.01,
+        "V": 4.7,
+        "R": 7.08,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0023",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 39,
+      "score_exact": 38.6,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.01,
+        "V": 5.5,
+        "R": 6.67,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0024",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 47,
+      "score_exact": 46.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.13,
+        "V": 4.88,
+        "R": 7.92,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0025",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 43,
+      "score_exact": 43.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.13,
+        "V": 3.77,
+        "R": 5.0,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0026",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 54,
+      "score_exact": 54.3,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.65,
+        "R": 6.94,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0027",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 41,
+      "score_exact": 41.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 3.73,
+        "R": 2.92,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0028",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 38,
+      "score_exact": 38.5,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 6.1,
+        "R": 3.33,
+        "C": 4
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0029",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 49,
+      "score_exact": 48.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 6.35,
+        "R": 8.33,
+        "C": 4
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0030",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 41,
+      "score_exact": 41.1,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.22,
+        "R": 2.5,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0031",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 43,
+      "score_exact": 43.0,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.17,
+        "R": 7.5,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0032",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 33,
+      "score_exact": 32.9,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.2,
+        "R": 6.39,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0033",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 46,
+      "score_exact": 46.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.83,
+        "R": 8.75,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0034",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 32,
+      "score_exact": 31.5,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.83,
+        "R": 6.25,
+        "C": 3.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0035",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 50,
+      "score_exact": 49.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.83,
+        "R": 6.67,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0036",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 44,
+      "score_exact": 43.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.85,
+        "R": 6.67,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0037",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 39,
+      "score_exact": 39.2,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.2,
+        "R": 7.29,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0038",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 30,
+      "score_exact": 30.0,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.2,
+        "R": 5.0,
+        "C": 2
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0039",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 54,
+      "score_exact": 53.7,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 5.88,
+        "R": 7.36,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0040",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 44,
+      "score_exact": 43.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 0.94,
+        "V": 6.7,
+        "R": 5.83,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 11
+      }
+    },
+    {
+      "asset_id": "AST-0041",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 49,
+      "score_exact": 48.6,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.6,
+        "V": 6.97,
+        "R": 5.0,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0042",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 50,
+      "score_exact": 49.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 6.4,
+        "R": 5.0,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0043",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 35,
+      "score_exact": 34.7,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 0.94,
+        "V": 5.12,
+        "R": 5.0,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 7,
+        "required": 11
+      }
+    },
+    {
+      "asset_id": "AST-0044",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 38,
+      "score_exact": 37.7,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 0.94,
+        "V": 5.33,
+        "R": 6.67,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0045",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 40,
+      "score_exact": 40.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.8,
+        "V": 3.52,
+        "R": 3.33,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0046",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 49,
+      "score_exact": 49.3,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.42,
+        "V": 5.85,
+        "R": 4.17,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 16
+      }
+    },
+    {
+      "asset_id": "AST-0047",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 53,
+      "score_exact": 53.3,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.82,
+        "V": 6.62,
+        "R": 6.67,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0048",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 43,
+      "score_exact": 43.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.82,
+        "V": 5.6,
+        "R": 5.83,
+        "C": 6.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0049",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 53,
+      "score_exact": 52.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.82,
+        "V": 5.42,
+        "R": 7.92,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0050",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 27,
+      "score_exact": 27.1,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.42,
+        "V": 4.5,
+        "R": 2.5,
+        "C": 2
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0051",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 44,
+      "score_exact": 44.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 3.67,
+        "R": 5.56,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0052",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 49,
+      "score_exact": 49.1,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 5.17,
+        "R": 5.83,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0053",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 50,
+      "score_exact": 50.0,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 7.83,
+        "R": 4.17,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0054",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 34,
+      "score_exact": 34.5,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 3.67,
+        "R": 5.0,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0055",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 45,
+      "score_exact": 44.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.87,
+        "V": 4.17,
+        "R": 4.17,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0056",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 40,
+      "score_exact": 39.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 7.0,
+        "R": 4.72,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0057",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 62,
+      "score_exact": 62.4,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 5.42,
+        "R": 6.67,
+        "C": 7.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0058",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 64,
+      "score_exact": 64.1,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.34,
+        "V": 5.28,
+        "R": 7.22,
+        "C": 7.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0059",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 56,
+      "score_exact": 55.6,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.55,
+        "R": 5.83,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0060",
+      "computed_at": "2026-08-26T20:00:00+04:00",
+      "score": 55,
+      "score_exact": 54.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.05,
+        "V": 4.47,
+        "R": 3.33,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    }
+  ],
+  "after_warning": [
+    {
+      "asset_id": "AST-0001",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 71,
+      "score_exact": 70.9,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.58,
+        "V": 6.5,
+        "R": 6.94,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0002",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 74,
+      "score_exact": 74.5,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 6.17,
+        "R": 8.33,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0003",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 59,
+      "score_exact": 58.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.0,
+        "R": 5.0,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0004",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 66,
+      "score_exact": 66.1,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.25,
+        "R": 7.5,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0005",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 67,
+      "score_exact": 67.0,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 7.2,
+        "R": 5.83,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0006",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 51,
+      "score_exact": 51.0,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.3,
+        "R": 5.83,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0007",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 43,
+      "score_exact": 43.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.55,
+        "R": 3.61,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0008",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 63,
+      "score_exact": 63.5,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.62,
+        "V": 3.85,
+        "R": 7.5,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0009",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 61,
+      "score_exact": 60.7,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.13,
+        "V": 5.2,
+        "R": 8.33,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 13,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0010",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 60,
+      "score_exact": 60.2,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 8.07,
+        "V": 3.25,
+        "R": 5.0,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 13,
+        "required": 16
+      }
+    },
+    {
+      "asset_id": "AST-0011",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 78,
+      "score_exact": 78.1,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 8.25,
+        "V": 6.25,
+        "R": 7.22,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0012",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 43,
+      "score_exact": 43.2,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.35,
+        "R": 1.67,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0013",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 60,
+      "score_exact": 59.6,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.22,
+        "R": 8.33,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0014",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 59,
+      "score_exact": 58.7,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 3.98,
+        "R": 6.25,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0015",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 64,
+      "score_exact": 63.7,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 4.8,
+        "R": 6.67,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0016",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 47,
+      "score_exact": 47.2,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.15,
+        "R": 3.33,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0017",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 58,
+      "score_exact": 58.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 8.07,
+        "V": 3.6,
+        "R": 5.0,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0018",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 67,
+      "score_exact": 67.2,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 5.45,
+        "R": 5.83,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0019",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 62,
+      "score_exact": 61.6,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 4.83,
+        "R": 5.83,
+        "C": 8
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0020",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 70,
+      "score_exact": 69.9,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 8.25,
+        "V": 6.08,
+        "R": 7.92,
+        "C": 6
+      },
+      "confidence": "A",
+      "confidence_inputs": {
+        "current": 14,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0021",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 60,
+      "score_exact": 59.9,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.41,
+        "V": 4.83,
+        "R": 4.17,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0022",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 40,
+      "score_exact": 40.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.01,
+        "V": 4.7,
+        "R": 7.08,
+        "C": 8
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0023",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 39,
+      "score_exact": 38.6,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.01,
+        "V": 5.5,
+        "R": 6.67,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0024",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 47,
+      "score_exact": 46.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.13,
+        "V": 4.88,
+        "R": 7.92,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0025",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 43,
+      "score_exact": 43.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.13,
+        "V": 3.77,
+        "R": 5.0,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0026",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 54,
+      "score_exact": 54.3,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.65,
+        "R": 6.94,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0027",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 41,
+      "score_exact": 41.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 3.73,
+        "R": 2.92,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0028",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 38,
+      "score_exact": 38.5,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 6.1,
+        "R": 3.33,
+        "C": 4
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0029",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 49,
+      "score_exact": 48.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 6.35,
+        "R": 8.33,
+        "C": 4
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0030",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 41,
+      "score_exact": 41.1,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 2.7,
+        "V": 4.22,
+        "R": 2.5,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0031",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 43,
+      "score_exact": 43.0,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.17,
+        "R": 7.5,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0032",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 33,
+      "score_exact": 32.9,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.2,
+        "R": 6.39,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0033",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 46,
+      "score_exact": 46.4,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.83,
+        "R": 8.75,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0034",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 32,
+      "score_exact": 31.5,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.09,
+        "V": 4.83,
+        "R": 6.25,
+        "C": 3.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0035",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 50,
+      "score_exact": 49.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.83,
+        "R": 6.67,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0036",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 44,
+      "score_exact": 43.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.85,
+        "R": 6.67,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0037",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 39,
+      "score_exact": 39.2,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.2,
+        "R": 7.29,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0038",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 30,
+      "score_exact": 30.0,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 4.2,
+        "R": 5.0,
+        "C": 2
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0039",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 54,
+      "score_exact": 53.7,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 5.88,
+        "R": 7.36,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0040",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 44,
+      "score_exact": 43.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 0.94,
+        "V": 6.7,
+        "R": 5.83,
+        "C": 10
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 11
+      }
+    },
+    {
+      "asset_id": "AST-0041",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 66,
+      "score_exact": 66.4,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.58,
+        "V": 6.97,
+        "R": 5.0,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0042",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 50,
+      "score_exact": 49.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 6.4,
+        "R": 5.0,
+        "C": 10
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0043",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 35,
+      "score_exact": 34.7,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 0.94,
+        "V": 5.12,
+        "R": 5.0,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 7,
+        "required": 11
+      }
+    },
+    {
+      "asset_id": "AST-0044",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 38,
+      "score_exact": 37.7,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 0.94,
+        "V": 5.33,
+        "R": 6.67,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0045",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 40,
+      "score_exact": 40.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.8,
+        "V": 3.52,
+        "R": 3.33,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0046",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 62,
+      "score_exact": 61.9,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.01,
+        "V": 5.85,
+        "R": 4.17,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 16
+      }
+    },
+    {
+      "asset_id": "AST-0047",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 53,
+      "score_exact": 53.3,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.82,
+        "V": 6.62,
+        "R": 6.67,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0048",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 43,
+      "score_exact": 43.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.82,
+        "V": 5.6,
+        "R": 5.83,
+        "C": 6.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 8,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0049",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 53,
+      "score_exact": 52.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.82,
+        "V": 5.42,
+        "R": 7.92,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0050",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 34,
+      "score_exact": 34.1,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.01,
+        "V": 4.5,
+        "R": 2.5,
+        "C": 2
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0051",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 44,
+      "score_exact": 44.5,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 3.67,
+        "R": 5.56,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0052",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 49,
+      "score_exact": 49.1,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 5.17,
+        "R": 5.83,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0053",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 50,
+      "score_exact": 50.0,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 7.83,
+        "R": 4.17,
+        "C": 10.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0054",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 34,
+      "score_exact": 34.5,
+      "band": "Guarded",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 3.67,
+        "R": 5.0,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0055",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 45,
+      "score_exact": 44.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 3.87,
+        "V": 4.17,
+        "R": 4.17,
+        "C": 6
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0056",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 40,
+      "score_exact": 39.9,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 1.92,
+        "V": 7.0,
+        "R": 4.72,
+        "C": 4
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 9,
+        "required": 12
+      }
+    },
+    {
+      "asset_id": "AST-0057",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 62,
+      "score_exact": 62.4,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 5.42,
+        "R": 6.67,
+        "C": 7.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 13
+      }
+    },
+    {
+      "asset_id": "AST-0058",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 68,
+      "score_exact": 68.1,
+      "band": "High",
+      "override_applied": false,
+      "pillars": {
+        "T": 8.07,
+        "V": 5.28,
+        "R": 7.22,
+        "C": 7.0
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 12,
+        "required": 15
+      }
+    },
+    {
+      "asset_id": "AST-0059",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 56,
+      "score_exact": 55.6,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 5.98,
+        "V": 4.55,
+        "R": 5.83,
+        "C": 6
+      },
+      "confidence": "B",
+      "confidence_inputs": {
+        "current": 11,
+        "required": 14
+      }
+    },
+    {
+      "asset_id": "AST-0060",
+      "computed_at": "2026-08-27T06:40:00+04:00",
+      "score": 55,
+      "score_exact": 54.8,
+      "band": "Elevated",
+      "override_applied": false,
+      "pillars": {
+        "T": 6.05,
+        "V": 4.47,
+        "R": 3.33,
+        "C": 10.0
+      },
+      "confidence": "C",
+      "confidence_inputs": {
+        "current": 10,
+        "required": 14
+      }
+    }
+  ]
+}

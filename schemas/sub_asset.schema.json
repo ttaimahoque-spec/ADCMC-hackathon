@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adcmc.example/ku-challenge/sub_asset.schema.json",
+  "title": "sub_asset",
+  "description": "An internal part of a facility. Sub-assets with the same function add up; a function is at full output when its working units reach units_needed.",
+  "type": "object",
+  "properties": {
+    "sub_asset_id": {
+      "type": "string",
+      "pattern": "^SA-[A-Z0-9-]+$"
+    },
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-\\d{4}$"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "function": {
+      "type": "string"
+    },
+    "units": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "capacity_per_unit_pct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "units_needed": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "repair_median_days": {
+      "type": "number",
+      "minimum": 0
+    },
+    "repair_beta": {
+      "type": "number",
+      "minimum": 0
+    },
+    "upstream": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "sub_asset_id",
+    "asset_id",
+    "name_ar",
+    "name_en",
+    "function",
+    "units",
+    "capacity_per_unit_pct",
+    "units_needed",
+    "repair_median_days",
+    "repair_beta",
+    "upstream"
+  ],
+  "additionalProperties": true
+}

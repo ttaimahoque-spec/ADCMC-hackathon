@@ -1,0 +1,1062 @@
+[
+  {
+    "asset_id": "AST-9001",
+    "name_ar": "سوق جملة المرسى 1",
+    "name_en": "Al Marsa Wholesale Market 1",
+    "sector": "food",
+    "category": 1,
+    "location": {
+      "x_km": 17.6,
+      "y_km": 12.8
+    },
+    "owner": "Madinat Al Marjan Food Department",
+    "operator": "Madinat Al Marjan Food Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-26T08:00:00+04:00",
+    "people_served": 150000,
+    "share_of_city_supply": 0.15,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2027-01-05T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2027-01-05T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 2,
+        "assessed_at": "2027-01-05T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-06-09T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-12-21T09:00:00+04:00"
+      },
+      {
+        "name": "pest and contamination control",
+        "state": "present_untested",
+        "verified_at": "2026-12-06T09:00:00+04:00"
+      },
+      {
+        "name": "fire suppression",
+        "state": "tested_current",
+        "verified_at": "2026-11-06T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": null,
+      "buffer_hours": null,
+      "buffer_target_hours": 24,
+      "rto_hours": 4,
+      "mtd_hours": 12,
+      "spares_on_site": true,
+      "plan_current": false,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-03-09T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-08-20T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2027-01-05T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9002",
+    "name_ar": "مركز شرطة الغاف 2",
+    "name_en": "Al Ghaf Police Station 2",
+    "sector": "security_and_safety",
+    "category": 4,
+    "location": {
+      "x_km": 21.8,
+      "y_km": 17.6
+    },
+    "owner": "Madinat Al Marjan Security And Safety Department",
+    "operator": "Madinat Al Marjan Security And Safety Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-28T08:00:00+04:00",
+    "people_served": 400000,
+    "share_of_city_supply": null,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 9,
+        "assessed_at": "2026-12-28T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2026-12-28T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-12-28T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 6,
+        "assessed_at": "2026-12-28T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-08-14T09:00:00+04:00"
+      },
+      {
+        "name": "radio fallback",
+        "state": "tested_stale",
+        "verified_at": "2026-08-29T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-11-01T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": null,
+      "buffer_hours": 120,
+      "buffer_target_hours": 72,
+      "rto_hours": 200,
+      "mtd_hours": 24,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-04-11T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-04-08T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-12-28T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9003",
+    "name_ar": "مقسم اتصالات القصر 3",
+    "name_en": "Al Qasr Telecom Exchange 3",
+    "sector": "communications",
+    "category": 1,
+    "location": {
+      "x_km": 1.1,
+      "y_km": 22.2
+    },
+    "owner": "Madinat Al Marjan Communications Department",
+    "operator": "Madinat Al Marjan Communications Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-11T08:00:00+04:00",
+    "people_served": 20000,
+    "share_of_city_supply": 0.15,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 4,
+        "assessed_at": "2027-02-17T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 6,
+        "assessed_at": "2027-02-17T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 3,
+        "assessed_at": "2027-02-17T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 5,
+        "assessed_at": "2027-02-17T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2027-02-14T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2027-02-03T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": null,
+      "buffer_hours": 0,
+      "buffer_target_hours": 12,
+      "rto_hours": 200,
+      "mtd_hours": 24,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-03-18T07:00:00+04:00",
+        "cadence_days": 90
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-05-25T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2027-02-17T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9004",
+    "name_ar": "مستودع أغذية المرسى 4",
+    "name_en": "Al Marsa Food Warehouse 4",
+    "sector": "food",
+    "category": 1,
+    "location": {
+      "x_km": 20.9,
+      "y_km": 8.3
+    },
+    "owner": "Madinat Al Marjan Food Department",
+    "operator": "Madinat Al Marjan Food Department",
+    "status": "operating",
+    "status_updated_at": "2027-04-01T08:00:00+04:00",
+    "people_served": 900000,
+    "share_of_city_supply": 0.95,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2026-07-09T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 9,
+        "assessed_at": "2026-07-09T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-07-09T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-06-17T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "present_untested",
+        "verified_at": "2026-11-26T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 4,
+      "buffer_target_hours": 24,
+      "rto_hours": 72,
+      "mtd_hours": null,
+      "spares_on_site": true,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-02-23T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-10-04T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-09T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9005",
+    "name_ar": "محطة تبريد المناطق المرسى 5",
+    "name_en": "Al Marsa District Cooling Plant 5",
+    "sector": "energy_water_wastewater",
+    "category": 2,
+    "location": {
+      "x_km": 39.4,
+      "y_km": 22.7
+    },
+    "owner": "Madinat Al Marjan Energy Water Wastewater Department",
+    "operator": "Madinat Al Marjan Energy Water Wastewater Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-14T08:00:00+04:00",
+    "people_served": 60000,
+    "share_of_city_supply": 0.95,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 1,
+        "assessed_at": "2026-07-06T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2026-07-06T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 4,
+        "assessed_at": "2026-07-06T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 0,
+        "assessed_at": "2026-07-06T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-10-27T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_stale",
+        "verified_at": "2027-03-06T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": null,
+      "buffer_target_hours": 48,
+      "rto_hours": 200,
+      "mtd_hours": 96,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-02-20T07:00:00+04:00",
+        "cadence_days": 7
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-08-21T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-07-06T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9006",
+    "name_ar": "مكتب بلدي الروضة 6",
+    "name_en": "Al Rawda Municipal Office 6",
+    "sector": "government_facilities",
+    "category": 4,
+    "location": {
+      "x_km": 16.0,
+      "y_km": 4.2
+    },
+    "owner": "Madinat Al Marjan Government Facilities Department",
+    "operator": "Madinat Al Marjan Government Facilities Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-04T08:00:00+04:00",
+    "people_served": 8000,
+    "share_of_city_supply": 0.02,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 3,
+        "assessed_at": "2027-04-09T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2027-04-09T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 4,
+        "assessed_at": "2027-04-09T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": null,
+        "assessed_at": null
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-01-30T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-12-22T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 0,
+      "buffer_target_hours": 24,
+      "rto_hours": null,
+      "mtd_hours": 4,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-03-20T07:00:00+04:00",
+        "cadence_days": 90
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-11-17T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2027-04-09T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9007",
+    "name_ar": "خزان مياه المرسى 7",
+    "name_en": "Al Marsa Water Reservoir 7",
+    "sector": "energy_water_wastewater",
+    "category": 4,
+    "location": {
+      "x_km": 40.1,
+      "y_km": 21.3
+    },
+    "owner": "Madinat Al Marjan Energy Water Wastewater Department",
+    "operator": "Madinat Al Marjan Energy Water Wastewater Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-11T08:00:00+04:00",
+    "people_served": 20000,
+    "share_of_city_supply": 0.15,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 8,
+        "assessed_at": "2027-01-23T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2027-01-23T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": null,
+        "assessed_at": null
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-05-25T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": null,
+        "verified_at": null
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 48,
+      "buffer_target_hours": 48,
+      "rto_hours": 12,
+      "mtd_hours": 12,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-03-14T07:00:00+04:00",
+        "cadence_days": 90
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2027-03-28T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2027-01-23T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9008",
+    "name_ar": "مستودع أغذية الغاف 8",
+    "name_en": "Al Ghaf Food Warehouse 8",
+    "sector": "food",
+    "category": 1,
+    "location": {
+      "x_km": 11.3,
+      "y_km": 9.5
+    },
+    "owner": "Madinat Al Marjan Food Department",
+    "operator": "Madinat Al Marjan Food Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-15T08:00:00+04:00",
+    "people_served": 2000,
+    "share_of_city_supply": 0.02,
+    "dependencies": [],
+    "irreplaceability": "partial",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 5,
+        "assessed_at": "2026-05-25T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 2,
+        "assessed_at": "2026-05-25T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 1,
+        "assessed_at": "2026-05-25T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2026-05-25T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_current",
+        "verified_at": "2026-08-06T09:00:00+04:00"
+      },
+      {
+        "name": "refrigeration monitoring",
+        "state": "absent",
+        "verified_at": null
+      },
+      {
+        "name": "pest and contamination control",
+        "state": null,
+        "verified_at": null
+      },
+      {
+        "name": "fire suppression",
+        "state": "present_untested",
+        "verified_at": "2026-01-27T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": true,
+      "buffer_hours": 4,
+      "buffer_target_hours": 72,
+      "rto_hours": 4,
+      "mtd_hours": 48,
+      "spares_on_site": true,
+      "plan_current": null,
+      "exercise": "tabletop"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-03-17T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2027-01-30T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-05-25T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9009",
+    "name_ar": "محطة ضخ المياه الجبل 9",
+    "name_en": "Al Jabal Water Pumping Station 9",
+    "sector": "energy_water_wastewater",
+    "category": 5,
+    "location": {
+      "x_km": 44.1,
+      "y_km": 4.2
+    },
+    "owner": "Madinat Al Marjan Energy Water Wastewater Department",
+    "operator": "Madinat Al Marjan Energy Water Wastewater Department",
+    "status": "shut_down",
+    "status_updated_at": "2027-04-10T08:00:00+04:00",
+    "people_served": 20000,
+    "share_of_city_supply": 0.02,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": null,
+        "assessed_at": null
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 3,
+        "assessed_at": "2027-01-27T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 7,
+        "assessed_at": "2027-01-27T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 4,
+        "assessed_at": "2027-01-27T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2026-01-20T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2026-09-22T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2027-03-30T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": null,
+      "buffer_hours": 8,
+      "buffer_target_hours": 24,
+      "rto_hours": 1,
+      "mtd_hours": 96,
+      "spares_on_site": false,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-02-24T07:00:00+04:00",
+        "cadence_days": 7
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-10-21T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2027-01-27T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9010",
+    "name_ar": "تقاطع طرق الغاف 10",
+    "name_en": "Al Ghaf Road Interchange 10",
+    "sector": "transport",
+    "category": 5,
+    "location": {
+      "x_km": 38.4,
+      "y_km": 3.8
+    },
+    "owner": "Madinat Al Marjan Transport Department",
+    "operator": "Madinat Al Marjan Transport Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-24T08:00:00+04:00",
+    "people_served": 60000,
+    "share_of_city_supply": 0.4,
+    "dependencies": [],
+    "irreplaceability": "single",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 7,
+        "assessed_at": "2026-05-05T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 0,
+        "assessed_at": "2026-05-05T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 6,
+        "assessed_at": "2026-05-05T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 0,
+        "assessed_at": "2026-05-05T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "present_untested",
+        "verified_at": "2027-02-20T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_stale",
+        "verified_at": "2027-03-08T09:00:00+04:00"
+      },
+      {
+        "name": "flood barriers",
+        "state": "tested_current",
+        "verified_at": "2026-11-07T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 72,
+      "buffer_target_hours": 72,
+      "rto_hours": 200,
+      "mtd_hours": null,
+      "spares_on_site": null,
+      "plan_current": true,
+      "exercise": "none"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-04-05T07:00:00+04:00",
+        "cadence_days": 90
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-10-17T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-05-05T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9011",
+    "name_ar": "غرفة تحكم مروري النخيل 11",
+    "name_en": "Al Nakheel Traffic Control Room 11",
+    "sector": "transport",
+    "category": 5,
+    "location": {
+      "x_km": 38.1,
+      "y_km": 37.0
+    },
+    "owner": "Madinat Al Marjan Transport Department",
+    "operator": "Madinat Al Marjan Transport Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-05T08:00:00+04:00",
+    "people_served": 400000,
+    "share_of_city_supply": 0.02,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 8,
+        "assessed_at": "2027-04-11T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 4,
+        "assessed_at": "2027-04-11T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 0,
+        "assessed_at": "2027-04-11T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 1,
+        "assessed_at": "2027-04-11T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-08-31T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2027-01-17T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": false,
+      "buffer_hours": 48,
+      "buffer_target_hours": 72,
+      "rto_hours": 12,
+      "mtd_hours": null,
+      "spares_on_site": null,
+      "plan_current": null,
+      "exercise": "full"
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-03-18T07:00:00+04:00",
+        "cadence_days": 30
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-10-10T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2027-04-11T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  },
+  {
+    "asset_id": "AST-9012",
+    "name_ar": "مدرسة (مأوى طوارئ) السدر 12",
+    "name_en": "Al Sidr School Shelter 12",
+    "sector": "government_facilities",
+    "category": 3,
+    "location": {
+      "x_km": 23.3,
+      "y_km": 32.8
+    },
+    "owner": "Madinat Al Marjan Government Facilities Department",
+    "operator": "Madinat Al Marjan Government Facilities Department",
+    "status": "operating",
+    "status_updated_at": "2027-03-24T08:00:00+04:00",
+    "people_served": 20000,
+    "share_of_city_supply": 0.4,
+    "dependencies": [],
+    "irreplaceability": "redundant",
+    "audit_domains": [
+      {
+        "domain": "physical_condition",
+        "score": 1,
+        "assessed_at": "2026-12-10T10:00:00+04:00"
+      },
+      {
+        "domain": "operational_resilience",
+        "score": 0,
+        "assessed_at": "2026-12-10T10:00:00+04:00"
+      },
+      {
+        "domain": "cyber_hygiene",
+        "score": 0,
+        "assessed_at": "2026-12-10T10:00:00+04:00"
+      },
+      {
+        "domain": "emergency_preparedness",
+        "score": 9,
+        "assessed_at": "2026-12-10T10:00:00+04:00"
+      }
+    ],
+    "controls": [
+      {
+        "name": "backup power",
+        "state": "tested_stale",
+        "verified_at": "2026-04-09T09:00:00+04:00"
+      },
+      {
+        "name": "cyber monitoring",
+        "state": "tested_current",
+        "verified_at": "2026-04-14T09:00:00+04:00"
+      }
+    ],
+    "continuity": {
+      "n1_redundant": null,
+      "buffer_hours": 0,
+      "buffer_target_hours": 24,
+      "rto_hours": 1,
+      "mtd_hours": null,
+      "spares_on_site": true,
+      "plan_current": false,
+      "exercise": null
+    },
+    "provenance": {
+      "status": {
+        "source": "operator report",
+        "last_verified": "2027-03-16T07:00:00+04:00",
+        "cadence_days": 7
+      },
+      "continuity": {
+        "source": "business-continuity return",
+        "last_verified": "2026-07-30T12:00:00+04:00",
+        "cadence_days": 180
+      },
+      "audit_domains": {
+        "source": "infrastructure audit",
+        "last_verified": "2026-12-10T10:00:00+04:00",
+        "cadence_days": 365
+      },
+      "controls": {
+        "source": "control verification log",
+        "last_verified": "2027-03-04T09:00:00+04:00",
+        "cadence_days": 365
+      }
+    }
+  }
+]
